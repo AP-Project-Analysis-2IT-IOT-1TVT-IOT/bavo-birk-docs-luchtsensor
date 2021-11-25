@@ -1,5 +1,5 @@
 ## Luchtdruksensor - Project AP 
-![alt text](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fyt3.ggpht.com%2F-KVgjC2G7jVc%2FAAAAAAAAAAI%2FAAAAAAAAAAA%2FghR6nOvOYDk%2Fs900-c-k-no%2Fphoto.jpg&f=1&nofb=1 "AP Hogeschool")
+![alt text](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F378800000542961862%2F5c7765d0b82c5ab3831554e4dcaee38b.png&f=1&nofb=1 "AP Hogeschool")
 
 # Requierments:
 - [ ] Measure temperature
