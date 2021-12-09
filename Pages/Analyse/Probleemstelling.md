@@ -3,7 +3,22 @@
 Maarten Luyts is product owner, in opdracht van Port of Antwerp.
 
 ## Korte samenvatting
-De Port of Antwerp wilt de luchtkwaliteit in de haven in kaart brengen. Hiervoor moet een sensor ontwikkeld worden met volgende eigenschappen:
+[Schrijven op het einde 250-500 woorden + ondersteunend diagram, zie IOT template.]
+
+## Opdracht
+
+### Korte beschrijving opdracht
+De Port of Antwerp is zeer geïnteresseerd in de luchtkwaliteit in de haven. Om dit in kaart te brengen zal dit projectteam een sensor ontwikkelen die de verschillende karakteristieken van luchtkwaliteit kan meten. Deze karakteristieken zijn maar niet gelimiteerd tot:
+- Temperatuur
+- Vochtigheid
+- Fijnstof
+- NOx
+
+Op zich geen complexe materie om te meten. De moeilijkheid ligt echter in het kaart brengen van de volledige haven. Om dit te kunnen realiseren moet de te ontwikkelen sensor volledig draadloos zijn. Er zal dus draadloze technologie moeten zijn en een of andere vorm van batterij als stroomvoorziening. De Port of Antwerp heeft onlangs in de haven een LoRaWAN netwerk uitgerold. Deze Low Power Wide Area Netwerk technologie is uiterst geschikt voor de te ontwikkelen sensor. De integratie van LoRaWAN in de sensor is dus ook een vereiste.
+Op AP en daarbuiten is er al wat geëxperimenteerd met de sensors rond de luchtkwaliteit. Het innovatieve gedeelte ligt vooral rond het volledige draadloze aspect. Voordat je start met je analyse is het aangeraden om je hierin in te lezen.
+
+### Verwachte output
+Prototype in een oplage van 10 stuks met volgende eigenschappen:
 - sensor metingen:
 	- temperatuur
 	- vochtigheid
@@ -12,6 +27,7 @@ De Port of Antwerp wilt de luchtkwaliteit in de haven in kaart brengen. Hiervoor
 - gebruikt low power MCU
 - casing geschikt voor buiten
 - batterijduur van meer dan 1 jaar
+- user interface om de data in kaart vorm weer te geven
 
 ## Situatie As-Is
 De huidige luchtsensor waarop we verder werken is met een ander doel ontwikkeld.
@@ -43,42 +59,30 @@ Er is wel een LCD-display aan toegevoegd om de sensor data in real-time te kunne
 #### Blok diagram
 <img src="./Pictures/BlockDiagrams/As-Is_BlockDiagram.png" width="100%">
 
+### Probleemstelling
+Het huidige prototype moet geoptimaliseerd worden zodat deze meer als één jaar kan werken op een batterij. Hiervoor moet een andere MCU gebruikt worden en enkele aanpassingen naar componenten en sensors toe.
+De sensor moet ook volledig autonoom kunnen werken, zodat deze ergens geplaatst kan worden en er niet naar moet worden omgekeken tot de batterij leeg is.
+Het gaat nu ook over het in kaart brengen van de volledige haven, dus de data moet 
+Nu gebeurt de data overgang van sensor naar database manueel via een SD-kaart. Dit zou automatisch moeten gebeuren.
+De lucht toevoer naar de sensor en koeling moet ook verbeterd worden.
+Nu is er een kleine FAN op de fijnstof sensor in combinatie met een klein gat in de behuizing. Dit zorgt echter niet voor voldoende lucht toevoer om correcte metingen te bekomen.
+De warmte die de componenten ontwikkelen hebben nu ook invloed op de temperatuur meting, wat natuurlijk niet gewenst is. De lucht doorstroming moet dus ook voor voldoende koeling zorgen.
+Belangrijk hierbij is wel dat er zo weinig mogelijk vocht en grotere stofdeeltjes in de sensor geraken.
+Ook moet de sensor in de schaduw geplaatst worden of voorzien worden van een zon afwerende coating of film.
+
 ## Situatie To-Be
 
-### Opdracht
-
-#### Korte beschrijving opdracht
-De Port of Antwerp is zeer geïnteresseerd in de luchtkwaliteit in de haven. Om dit in kaart te brengen zal dit projectteam een sensor ontwikkelen die de verschillende karakteristieken van luchtkwaliteit kan meten. Deze karakteristieken zijn maar niet gelimiteerd tot:
-- Temperatuur
-- Vochtigheid
-- Fijnstof
-- NOx
-
-Op zich geen complexe materie om te meten. De moeilijkheid ligt echter in het kaart brengen van de volledige haven. Om dit te kunnen realiseren moet de te ontwikkelen sensor volledig draadloos zijn. Er zal dus draadloze technologie moeten zijn en een of andere vorm van batterij als stroomvoorziening. De Port of Antwerp heeft onlangs in de haven een LoRaWAN netwerk uitgerold. Deze Low Power Wide Area Netwerk technologie is uiterst geschikt voor de te ontwikkelen sensor. De integratie van LoRaWAN in de sensor is dus ook een vereiste.
-Op AP en daarbuiten is er al wat geëxperimenteerd met de sensors rond de luchtkwaliteit. Het innovatieve gedeelte ligt vooral rond het volledige draadloze aspect. Voordat je start met je analyse is het aangeraden om je hierin in te lezen.
-
-#### Verwachte output
-Prototype in een oplage van 10 stuks met volgende eigenschappen:
-- sensor metingen:
-	- temperatuur
-	- vochtigheid
-	- fijnstof
-- LoRaWAN draadloze connectiviteit
-- gebruikt low power MCU
-- casing geschikt voor buiten
-- batterijduur van meer dan 1 jaar
-- user interface om de data in kaart vorm weer te geven
-
 #### Blok diagram
+[Er moet nog bijkomen over wat voor data het geet, analoog of digitaal, en met welke protocollen ze verstuurd worden tussen de blokken.]
 <img src="./Pictures/BlockDiagrams/To-Be_BlockDiagram.png" width="100%">
 
 ### Projectdefinitie
 
 #### Doelstelling
-Het in kaart brengen van de luchtkwaliteit in de gehele Port of Antwerp adhv volledig draadloze sensoren.
-De data verzenden vanuit de sensor en ontvangen door een server gebeurt adhv LoRaWAN.
-De sensor moet meer dan een jaar autonoom werken in open lucht in een vochtige en zoute omgeving met vier seizoenen.
-Hier moet rekening mee gehouden worden bij de componenten selectie en ontwerp.
+Het doel is het in kaart brengen van de luchtkwaliteit in de gehele Port of Antwerp adhv volledig draadloze sensoren die voor meer als één jaar autonoom kunnen werken.
+De data verzenden vanuit de sensor en ontvangen door een server zal gebeuren adhv LoRaWAN.
+Er moet een nieuwe behuizing ontworpen worden waar meer wordt rekening gehouden wordt met lucht doorstroming en temperatuur, beschreven in de probleemstelling.
+Dit ontwerp moet ook worden doorgevoerd naar het PCB ontwerp en de plaatsing van de sensoren.
 
 De opdracht laat de GPS module uit de As-Is sensor achterwegen wegens extra stroomverbruik, maar wij willen argumenteren om deze toch te behouden.
 Om het in kaart brengen van de luchtkwaliteit zo accuraat en eenvoudig mogelijk te maken is het aangeraden om coördinaten te hebben van waar elke sensor zich bevind.
@@ -94,6 +98,8 @@ Door de integratie van de GPS module in de sensor kan dit volledig automatisch g
 - initiële sensor calibratie
 
 #### Niet in scope:
+- sensor bevestigingssysteem
+- LoRaWAN ontvanger opzetten
 - front-end user interface
 - servers en server onderhoud
 - field deployment
