@@ -29,6 +29,16 @@ De weken duiden we aan met de academische weken, vb onze eerste week is W10. Dit
 > #### Fase 4: Diagrammen opstellen + Dashboard
 >> Nu dat de inputs en outputs gekend zijn is het veel eenvoudiger om de diagrammen op te stellen van de software. Eens die diagrammen er zijn is het mogelijk om het dashboard te analyseren.
 
+### User stories
+- Als ... Wil ik ... Zodat ik ...
+1. Als geldschieter wil ik weten wie de opdrachtgever is en wat de opdracht, in het kort, is, zodat ik een snel idee kan krijgen van het project.
+2. Als geldschieter wil ik weten wat de huidige as-is situatie is van het vorige project en de probleemstelling adhv dit huidige proces, zodat ik goed weet hoever het nu staat, wat de eventuele moeilijkheden zijn en hoe er hierop gaat voortgebouwd worden.
+3. Als geldschieter wil ik weten wat de situatie to-be moet worden, wat de doelstelling van het project is, zodat ik kan inschatten of het haalbaar is. 
+4. Als opdrachtgever wil ik weten wat wel en niet binnen de scope van het project valt, zodat ik weet wat ik juist zal krijgen en wat ik eventueel zelf nog moet voorzien.
+5. Als ontwikkelaar wil ik weten wat de planning is, zodat ik weet wat wanneer af moet zijn en om het project op te volgen.
+6. Als ... wil ik weten wat het functioneel design is, zodat ik weet hoe de eind gebruiker met het product zal kunnen omgaan.
+7. Als ... wil ik weten wat het technisch design is, zodat ik weet wat de architectuur is, welke technologieën zullen gebruikt worden, en hoe het project technisch zal worden gerealiseerd.
+8. 
 
 ## Release Plan
 
