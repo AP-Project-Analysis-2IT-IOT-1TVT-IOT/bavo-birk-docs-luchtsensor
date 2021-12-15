@@ -58,7 +58,7 @@ Er is wel een LCD-display aan toegevoegd om de sensor data in real-time te kunne
 
 #### Blok diagram
 
-![As-Is block diagram](./Pictures/BlockDiagrams/As-Is_BlockDiagram.png "As-Is block diagram")
+<img src="./Pictures/BlockDiagrams/As-Is_BlockDiagram.png">
 
 
 ### Probleemstelling
@@ -76,7 +76,7 @@ Ook moet de sensor in de schaduw geplaatst worden of voorzien worden van een zon
 
 #### Blok diagram
 
-![To-Be block diagram](./Pictures/BlockDiagrams/To-Be_BlockDiagram.png "To-Be block diagram")
+<img src="./Pictures/BlockDiagrams/To-Be_BlockDiagram.png">
 
 ### Projectdefinitie
 
