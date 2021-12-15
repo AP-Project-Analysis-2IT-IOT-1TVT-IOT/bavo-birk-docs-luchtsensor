@@ -57,7 +57,8 @@ Er is wel een LCD-display aan toegevoegd om de sensor data in real-time te kunne
 - Op de ingebouwde LCD kan men de huidige metingen, datum, tijd en coördinaten zien.
 
 #### Blok diagram
-![alt text](./Pictures/BlockDiagrams/As-Is_BlockDiagram_v2.png "As-Is block diagram")
+
+![As-Is block diagram](./Pictures/BlockDiagrams/As-Is_BlockDiagram.png "As-Is block diagram")
 
 
 ### Probleemstelling
@@ -74,7 +75,8 @@ Ook moet de sensor in de schaduw geplaatst worden of voorzien worden van een zon
 ## Situatie To-Be
 
 #### Blok diagram
-![alt text](./Pictures/BlockDiagrams/To-Be_BlockDiagram_v2.png "To-Be block diagram")
+
+![To-Be block diagram](./Pictures/BlockDiagrams/To-Be_BlockDiagram.png "To-Be block diagram")
 
 ### Projectdefinitie
 
