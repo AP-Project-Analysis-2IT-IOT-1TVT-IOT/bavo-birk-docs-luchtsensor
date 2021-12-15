@@ -210,14 +210,16 @@ Zoals bij de As-Is sensor hebben we onderdelen die werken op 3.3V en op 5V.
 Voor 5V behouden wij er slechts één, de Sharp GP2Y1014AU0F met I<sub>max</sub> = <b>20mA</b>.
 Voor de 3.3V componenten moeten we een herberekening doen:
 
-> Herberekeningen voor 3.3V
-I<sub>max</sub> = I<sub>ATSAMD21G18A-AUT</sub> + I<sub>BME280</sub> + I<sub>SGP41</sub> + I<sub>Grove GPS Air530</sub> + I<sub>RFM95W LoRa</sub> = 4.7mA + 4.5mA + 100mA + 60mA + 120mA = 289.2mA
-Om wat marge te hebben doen we deze waarde maal <i>1.2</i>.
--> 289.2mA * 1.2 = <b>347.0mA</b>
+> Herberekeningen voor 3.3V <br>
+I<sub>max</sub> = I<sub>ATSAMD21G18A-AUT</sub> + I<sub>BME280</sub> + I<sub>SGP41</sub> + I<sub>Grove GPS Air530</sub> + I<sub>RFM95W LoRa</sub> <br>
+I<sub>max</sub> = 4.7mA + 4.5mA + 100mA + 60mA + 120mA = 289.2mA <br>
+Om wat marge te hebben doen we deze waarde maal <i>1.2</i>: 289.2mA • 1.2 = <b>347.0mA</b>
 
-De spanningsvereisten liggen dit maal dus een stuk lager.
-Voor 5V <b>20mA</b> tegenover <b>390mA</b>.
+De spanningsvereisten liggen dit maal dus een stuk lager:
+
+> Voor 5V <b>20mA</b> tegenover <b>390mA</b>.<br>
 Voor 3.3V <b>347mA</b> tegenover <b>822.6mA</b>.
+
 
 <table style="width: 100%">
 <colgroup>
