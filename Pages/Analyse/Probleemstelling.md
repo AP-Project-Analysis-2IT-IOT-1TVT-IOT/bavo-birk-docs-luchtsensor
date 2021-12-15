@@ -57,7 +57,8 @@ Er is wel een LCD-display aan toegevoegd om de sensor data in real-time te kunne
 - Op de ingebouwde LCD kan men de huidige metingen, datum, tijd en coördinaten zien.
 
 #### Blok diagram
-<img src="./Pictures/BlockDiagrams/As-Is_BlockDiagram.png" width="100%">
+![alt text](./Pictures/BlockDiagrams/As-Is_BlockDiagram_v2.png "As-Is block diagram")
+
 
 ### Probleemstelling
 Het huidige prototype moet geoptimaliseerd worden zodat deze meer als één jaar kan werken op een batterij. Hiervoor moet een andere MCU gebruikt worden en enkele aanpassingen naar componenten en sensors toe.
@@ -73,8 +74,7 @@ Ook moet de sensor in de schaduw geplaatst worden of voorzien worden van een zon
 ## Situatie To-Be
 
 #### Blok diagram
-[Er moet nog bijkomen over wat voor data het geet, analoog of digitaal, en met welke protocollen ze verstuurd worden tussen de blokken.]
-<img src="./Pictures/BlockDiagrams/To-Be_BlockDiagram.png" width="100%">
+![alt text](./Pictures/BlockDiagrams/To-Be_BlockDiagram_v2.png "To-Be block diagram")
 
 ### Projectdefinitie
 
