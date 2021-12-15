@@ -4,7 +4,7 @@
   * [Probleemstelling](./Pages/Analyse/Probleemstelling.md)
   * [Planning](./Pages/Analyse/Planning.md)
   * [Design](./Pages/Analyse/Design.md)
-  * [Hardware Analyse](./Pages/Analyse/Sensoren-.md)
+  * [Hardware Analyse](./Pages/Analyse/Hardware.md)
 
 * Presentatie
 
