@@ -33,6 +33,8 @@
 </tr>
 </table>
 
+---
+
 ## Modules
 <table>
 <tr>
@@ -90,6 +92,8 @@
 </tr>
 </table>
 
+---
+
 ## Sensoren
 
 #### Moet zeker:
@@ -109,8 +113,8 @@
             <li>V<sub>cc</sub> = 4.5V - 5.5V</li>
             <li>I<sub>max</sub> = 20mA</li>
             <li>Analoog</li>
-            <li>output voltage (zie grafiek)</li>
-            <li>meetbereik (zie grafiek)</li>
+            <li>Output voltage: zie grafiek</li>
+            <li>Meetbereik PM2.5 en PM10: zie grafiek</li>
         </ul>
     </td>
     <td>
@@ -173,7 +177,96 @@
 	</td>
 </tr>
 </table>
+
+---
 	
 ## Voeding
+
+Zoals bij de As-Is sensor hebben we onderdelen die werken op 3.3V en op 5V.
+Voor 5V behouden wij er slechts één, de Sharp GP2Y1014AU0F met I<sub>max</sub> = 20mA.
+Voor de 3.3V componenten moeten we een herberekening doen:
+
+> Herberekeningen voor 3.3V
+I<sub>max</sub> = I<sub>ATSAMD21G18A-AUT</sub> + I<sub>BME280</sub> + I<sub>SGP41</sub> + I<sub>Grove GPS Air530</sub> + I<sub>RFM95W LoRa</sub> = 4.7mA + 4.5mA + 100mA + 60mA + 120mA = 289.2mA
+Om wat marge te hebben doen we deze waarde maal <i>1.2</i>.
+-> 289.2mA * 1.2 = <b>347.0mA</b>
+
+De spanningsvereisten liggen dit maal dus een stuk lager.
+Voor 5V is dit <b>20mA</b> tegenover <b>390mA</b>, en voor 3.3V <b>347mA</b> tegenover <b>822.6mA</b>
+
+<table>
+<tr>
+    <th>Naam</th>
+    <th>Eigenschappen</th>
+    <th>Argumentatie</th>
+    <th>Data</th>
+</tr>
+<tr>
+    <td>Naam</td>
+    <td>
+        <ul>
+            <li><b>5V Voltage Regulator</b></li>
+            <li>V<sub>in</sub> = V</li>
+            <li>V<sub>out</sub> = 5V</li>
+            <li>I<sub>max</sub> = mA</li>
+            <li>Operating Temperatuur = </li>
+			<li>SOT-..</li>
+        </ul>
+    </td>
+    <td>
+		Argumentatie
+	</td>
+    <td>
+		<a href="./Pages/Apendix/Datasheets/.pdf">Datasheet</a><br>
+		<a href="">Documentatie fabrikant</a><br>
+		<a href="">Winkel</a><br>
+	</td>
+</tr>
+<tr>
+    <td>Naam</td>
+    <td>
+        <ul>
+            <li><b>3.3V Voltage Regulator</b></li>
+            <li>V<sub>in</sub> = V</li>
+            <li>V<sub>out</sub> = 5V</li>
+            <li>I<sub>max</sub> = mA</li>
+            <li>Operating Temperatuur = </li>
+			<li>SOT-..</li>
+        </ul>
+    </td>
+    <td>
+		Argumentatie
+	</td>
+    <td>
+		<a href="./Pages/Apendix/Datasheets/.pdf">Datasheet</a><br>
+		<a href="">Documentatie fabrikant</a><br>
+		<a href="">Winkel</a><br>
+	</td>
+</tr>
+<tr>
+    <td>2N7002K-7</td>
+    <td>
+        <ul>
+            <li><b>MOSFET</b></li>
+            <li>V<sub>GS(th)</sub> = 1 - 2.5V</li>
+            <li>V<sub>DDS(max)</sub> = 60V</li>
+            <li>I<sub>max</sub> = 380mA</li>
+			<li>SOT-23</li>
+        </ul>
+    </td>
+    <td>
+		De 2N7002K-7 zal gebruikt worden om de modules en sensoren, zonder sleep mode, uit te zetten tijdens de intervallen. (Overgenomen van As-Is)
+	</td>
+    <td>
+		<a href="./Pages/Apendix/Datasheets/MOSFET-2N7002K-7_Datasheet.pdf">Datasheet</a><br>
+		<a href="https://www.diodes.com/part/view/2N7002K">Documentatie fabrikant</a><br>
+		<a href="https://www.mouser.be/ProductDetail/Diodes-Incorporated/2N7002K-7?qs=rGAXPo9uwV0%2Fp9r5KJ7huA%3D%3D">Winkel</a><br>
+	</td>
+</tr>
+</table>
+
+<br>
+
+---
 
 ## Alternatieven
