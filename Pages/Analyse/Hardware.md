@@ -1,7 +1,13 @@
 # Hardware Analyse
 
 ## Microcontroller
-<table>
+<table style="width: 100%">
+<colgroup>
+    <col span="1" style="width: 15%;">
+    <col span="1" style="width: 30%;">
+    <col span="1" style="width: 50%;">
+	<col span="1" style="width: 15%;">
+</colgroup>
 <tr>
     <th>Naam</th>
     <th>Eigenschappen</th>
@@ -27,7 +33,7 @@
 	</td>
     <td>
 		<a href="./Pages/Apendix/Datasheets/ATSAMD21G18A-AUT_SAM-D21-DA1-Family_Datasheet.pdf">Datasheet</a><br>
-		<a href="https://www.microchip.com/en-us/product/ATsamd21g18#document-table">Documentatie fabrikant</a><br>
+		<a href="https://www.microchip.com/en-us/product/ATsamd21g18#document-table style="width: 100%"">Documentatie fabrikant</a><br>
 		<a href="https://www.mouser.be/ProductDetail/Microchip-Technology-Atmel/ATSAMD21G18A-AUT?qs=KLFHFgXTQiBkLYobE%2Fq9Qw%3D%3D">Winkel</a><br>
 	</td>
 </tr>
@@ -36,7 +42,13 @@
 ---
 
 ## Modules
-<table>
+<table style="width: 100%">
+<colgroup>
+    <col span="1" style="width: 15%;">
+    <col span="1" style="width: 30%;">
+    <col span="1" style="width: 50%;">
+	<col span="1" style="width: 15%;">
+</colgroup>
 <tr>
     <th>Naam</th>
     <th>Eigenschappen</th>
@@ -98,7 +110,13 @@
 
 #### Moet zeker:
 
-<table>
+<table style="width: 100%">
+<colgroup>
+    <col span="1" style="width: 15%;">
+    <col span="1" style="width: 30%;">
+    <col span="1" style="width: 50%;">
+	<col span="1" style="width: 15%;">
+</colgroup>
 <tr>
     <th>Naam</th>
     <th>Eigenschappen</th>
@@ -156,7 +174,13 @@
 
 #### Optioneel:
 
-<table>
+<table style="width: 100%">
+<colgroup>
+    <col span="1" style="width: 15%;">
+    <col span="1" style="width: 30%;">
+    <col span="1" style="width: 50%;">
+	<col span="1" style="width: 15%;">
+</colgroup>
 <tr>
     <td>SGP41</td>
     <td>
@@ -183,7 +207,7 @@
 ## Voeding
 
 Zoals bij de As-Is sensor hebben we onderdelen die werken op 3.3V en op 5V.
-Voor 5V behouden wij er slechts één, de Sharp GP2Y1014AU0F met I<sub>max</sub> = 20mA.
+Voor 5V behouden wij er slechts één, de Sharp GP2Y1014AU0F met I<sub>max</sub> = <b>20mA</b>.
 Voor de 3.3V componenten moeten we een herberekening doen:
 
 > Herberekeningen voor 3.3V
@@ -192,9 +216,16 @@ Om wat marge te hebben doen we deze waarde maal <i>1.2</i>.
 -> 289.2mA * 1.2 = <b>347.0mA</b>
 
 De spanningsvereisten liggen dit maal dus een stuk lager.
-Voor 5V is dit <b>20mA</b> tegenover <b>390mA</b>, en voor 3.3V <b>347mA</b> tegenover <b>822.6mA</b>
+Voor 5V <b>20mA</b> tegenover <b>390mA</b>.
+Voor 3.3V <b>347mA</b> tegenover <b>822.6mA</b>.
 
-<table>
+<table style="width: 100%">
+<colgroup>
+    <col span="1" style="width: 15%;">
+    <col span="1" style="width: 30%;">
+    <col span="1" style="width: 50%;">
+	<col span="1" style="width: 15%;">
+</colgroup>
 <tr>
     <th>Naam</th>
     <th>Eigenschappen</th>
