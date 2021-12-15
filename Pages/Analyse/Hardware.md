@@ -1,6 +1,37 @@
 # Hardware Analyse
 
 ## Microcontroller
+<table>
+<tr>
+    <th>Naam</th>
+    <th>Eigenschappen</th>
+    <th>Argumentatie</th>
+    <th>Data</th>
+</tr>
+<tr>
+    <td>ATSAMD21G18A-AUT</td>
+    <td>
+        <ul>
+            <li><b>Low-power MCU</b></li>
+            <li>V<sub>cc</sub> = 1.62V - 3.63V</li>
+            <li>I<sub>max</sub> = 4.7mA</li>
+			<li>CORTEX-M0+PROCESSOR aan 48MHz</li>
+			<li>USB naar UART aanwezig op de chip</li>
+			<li>256KB FLASH geheugen</li>
+			<li>32-bit RTC</li>
+			<li>6 SERCOM interfaces</li>
+        </ul>
+    </td>
+    <td>
+		Uit het interview met de opdrachtgever gaf hij aan dat we deze MCU moeten gebruiken. Deze is low-power en dus zeer geschikt voor de applicatie.
+	</td>
+    <td>
+		<a href="./Pages/Apendix/Datasheets/ATSAMD21G18A-AUT_SAM-D21-DA1-Family_Datasheet.pdf">Datasheet</a><br>
+		<a href="https://www.microchip.com/en-us/product/ATsamd21g18#document-table">Documentatie fabrikant</a><br>
+		<a href="https://www.mouser.be/ProductDetail/Microchip-Technology-Atmel/ATSAMD21G18A-AUT?qs=KLFHFgXTQiBkLYobE%2Fq9Qw%3D%3D">Winkel</a><br>
+	</td>
+</tr>
+</table>
 
 ## Modules
 <table>
@@ -14,7 +45,7 @@
     <td>Grove GPS Air530</td>
     <td>
         <ul>
-            <li>NOx + VOC</li>
+            <li><b>GPS localisatie</b></li>
             <li>V<sub>cc</sub> = 3.3V / 5V</li>
             <li>I<sub>max</sub> = 60mA</li>
 			<li>Capture current value@3.3V = 42.6mA</li>
@@ -26,18 +57,38 @@
 			<li>Time of cold boot: 30s</li>
         </ul>
     </td>
-    <td></td>
     <td>
-		<a href="https://wiki.seeedstudio.com/Grove-GPS-Air530/">Documentation</a>
-		<a href="https://www.seeedstudio.com/Grove-GPS-Air530-p-4584.html">Winkel</a>
-		<a href="https://www.mouser.be/new/seeed-studio/seeedstudio-grove-gps-air530-module/">Winkel (Mouser)</a>
-		<a href="./Pages/Apendix/Datasheets/Air530_GPS_User_Booklet.V1.7(Chinese).pdf">Booklet (Chinese)</a>
+		Deze GPS module is zeer energie zuinig met verschillende low-power modi. Ze is ook relatief goedkoop en werkt op 3.3V.
+	</td>
+    <td>
+		<a href="https://wiki.seeedstudio.com/Grove-GPS-Air530/">Documentatie fabrikant</a><br>
+		<a href="https://www.seeedstudio.com/Grove-GPS-Air530-p-4584.html">Winkel (fabrikant)</a><br>
+		<a href="https://www.mouser.be/new/seeed-studio/seeedstudio-grove-gps-air530-module/">Winkel</a><br>
+		<a href="./Pages/Apendix/Datasheets/Air530_GPS_User_Booklet.V1.7(Chinese).pdf">Booklet (Chinese)</a><br>
+	</td>
+</tr>
+<tr>
+    <td>HopeRF RFM95W LoRa Module - 868Mh</td>
+    <td>
+        <ul>
+            <li><b>LoRaWAN module</b></li>
+            <li>V<sub>cc</sub> = 1.8V - 3.7V</li>
+            <li>I<sub>max</sub> = 120mA</li>
+			<li>Vermogen van +13 dBm met 13.8mA</li>
+			<li>SPI interface</li>
+			<li>Payload lenght max 64 bytes</li>
+        </ul>
+    </td>
+    <td>
+		Een veel gebruikte module waardoor er veel documentatie over te vinden is. Ook relatief klein.
+	</td>
+    <td>
+		<a href="./Pages/Apendix/Datasheets/HopeRF-RFM95W_Datasheet.pdf">Datasheet</a><br>
+		<a href="https://www.hoperf.com/modules/lora/RFM95.html">Documentatie fabrikant</a><br>
+		<a href="https://www.mouser.be/ProductDetail/RF-Solutions/RFM95W-868S2?qs=sGAEpiMZZMu3sxpa5v1qriuzrjO9DfPi5Wv3OoHC154%3D">Winkel</a><br>
 	</td>
 </tr>
 </table>
-
-- HopeRF RFM95W LoRa Module - 868Mh
-	
 
 ## Sensoren
 
@@ -54,7 +105,7 @@
     <td>Sharp GP2Y1014AU0F</td>
     <td>
         <ul>
-            <li>Fijnstof</li>
+            <li><b>Fijnstof</b></li>
             <li>V<sub>cc</sub> = 4.5V - 5.5V</li>
             <li>I<sub>max</sub> = 20mA</li>
             <li>Analoog</li>
@@ -62,18 +113,23 @@
             <li>meetbereik (zie grafiek)</li>
         </ul>
     </td>
-    <td></td>
     <td>
-		<a href="./Pages/Apendix/Datasheets/Sharp-GP2Y1014AU0F_nieuwere-versie-itteratie-GP2Y1010AU0F.pdf">Datasheet GP2Y1014AU0F</a>
-		<a href="./Pages/Apendix/Datasheets/Sharp-GP2Y1010AU0F.pdf">Datasheet voorganger GP2Y1010AU0F</a>
-		<a href="./Pages/Apendix/Datasheets/Sharp-GP2Y1010AU0F_Application-notes.pdf">Application notes GP2Y1010AU0F</a>
+		De Nova SDS011 die bij de As-Is sensor gebruikt wordt heeft als grote nadeel dat er een FAN zit ingebouwd om lucht in de sensor te krijgen. Dit zorgt voor extra stroomverbruik en werkte in het prototype daarbij nog is niet voldoende.
+		De Sharp GP2Y1010AU0F komt uit test op vlak van accuraatheid even goed uit als de SDS011, maar heeft het voordeel van geen FAN te hebben, kleiner te zijn, energiezuiniger en goedkoper.
+	</td>
+    <td>
+		<a href="./Pages/Apendix/Datasheets/Sharp-GP2Y1014AU0F_nieuwere-versie-itteratie-GP2Y1010AU0F.pdf">Datasheet GP2Y1014AU0F</a><br>
+		<a href="./Pages/Apendix/Datasheets/Sharp-GP2Y1010AU0F.pdf">Datasheet voorganger GP2Y1010AU0F</a><br>
+		<a href="./Pages/Apendix/Datasheets/Sharp-GP2Y1010AU0F_Application-notes.pdf">Application notes GP2Y1010AU0F</a><br>
+		<a href="http://global.sharp/products/device/lineup/selection/opto/dust/index.html">Documentatie fabrikant</a><br>
+		<a href="https://www.mouser.be/ProductDetail/Sharp-Microelectronics/GP2Y1014AU0F?qs=rrS6PyfT74eynj5J61tvwA%3D%3D">Winkel</a><br>
 	</td>
 </tr>
 <tr>
-    <td>BME280</td>
+    <td>Bosch Sensortec BME280</td>
     <td>
         <ul>
-            <li>Temperatuur, barometer en luchtvochtigheid</li>
+            <li><b>Temperatuur, barometer en luchtvochtigheid</b></li>
             <li>V<sub>cc</sub> = 3.3V</li>
             <li>I<sub>max</sub> = 4.5mA</li>
             <li>I²C protocol 3.3V</li>
@@ -83,23 +139,14 @@
 			<li>Leessnelheid: 1Hz (1s)</li>
         </ul>
     </td>
-    <td></td>
-    <td><a href="./">Datasheet</a></td>
-</tr>
-<tr>
-    <td>MHZ19</td>
     <td>
-        <ul>
-            <li>CO2</li>
-            <li>V<sub>cc</sub> = 3.6V - 5.5V</li>
-            <li>I<sub>max</sub> = 18mA</li>
-            <li>UART of PWM</li>
-            <li>Meetbereik: 0ppm - 2000ppm</li>
-            <li>3 minuten opwarmtijd</li>
-        </ul>
-    </td>
-    <td></td>
-    <td><a href="./">Datasheet</a></td>
+		Deze IC heeft als voordeel beide temperatuur en luchtvochtigheid te meten. Het is ook een SMD component dus eenvoudig op een PCB te krijgen. Hier moeten we wel rekening houden met de warmte ontwikkeling van andere componenten die de temperatuur metingen kunnen beïnvloeden.
+	</td>
+    <td>
+		<a href="./Pages/Apendix/Datasheets/BoschSensortec-BME280_Datasheet.pdf">Datasheet</a><br>
+		<a href="https://www.bosch-sensortec.com/products/environmental-sensors/humidity-sensors-bme280/">Documentatie fabrikant</a><br>
+		<a href="https://www.mouser.be/ProductDetail/Bosch-Sensortec/BME280?qs=2OnyuXx6vpj2fK9HX7qb3g%3D%3D">Winkel</a><br>
+	</td>
 </tr>
 </table>
 
@@ -110,7 +157,7 @@
     <td>SGP41</td>
     <td>
         <ul>
-            <li>NOx + VOC</li>
+            <li><b>NOx en VOC</b></li>
             <li>V<sub>cc</sub> = 1.7V - 3.6V</li>
             <li>I<sub>max</sub> = 100mA</li>
             <li>I²C protocol</li>
@@ -118,8 +165,12 @@
             <li>Meetbereik: 0-10ppb NOx</li>
         </ul>
     </td>
-    <td></td>
-    <td><a href="./">Datasheet</a></td>
+    <td>
+		Argumentatie
+	</td>
+    <td>
+		<a href="./">Datasheet</a><br>
+	</td>
 </tr>
 </table>
 	
