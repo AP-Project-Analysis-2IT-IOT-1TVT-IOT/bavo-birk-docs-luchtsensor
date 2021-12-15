@@ -5,8 +5,8 @@
 <colgroup>
     <col span="1" style="width: 15%;">
     <col span="1" style="width: 30%;">
-    <col span="1" style="width: 50%;">
-	<col span="1" style="width: 15%;">
+    <col span="1" style="width: 40%;">
+	<col span="1" style="width: 25%;">
 </colgroup>
 <tr>
     <th>Naam</th>
@@ -46,8 +46,8 @@
 <colgroup>
     <col span="1" style="width: 15%;">
     <col span="1" style="width: 30%;">
-    <col span="1" style="width: 50%;">
-	<col span="1" style="width: 15%;">
+    <col span="1" style="width: 40%;">
+	<col span="1" style="width: 25%;">
 </colgroup>
 <tr>
     <th>Naam</th>
@@ -114,8 +114,8 @@
 <colgroup>
     <col span="1" style="width: 15%;">
     <col span="1" style="width: 30%;">
-    <col span="1" style="width: 50%;">
-	<col span="1" style="width: 15%;">
+    <col span="1" style="width: 40%;">
+	<col span="1" style="width: 25%;">
 </colgroup>
 <tr>
     <th>Naam</th>
@@ -178,8 +178,8 @@
 <colgroup>
     <col span="1" style="width: 15%;">
     <col span="1" style="width: 30%;">
-    <col span="1" style="width: 50%;">
-	<col span="1" style="width: 15%;">
+    <col span="1" style="width: 40%;">
+	<col span="1" style="width: 25%;">
 </colgroup>
 <tr>
     <td>SGP41</td>
@@ -223,8 +223,8 @@ Voor 3.3V <b>347mA</b> tegenover <b>822.6mA</b>.
 <colgroup>
     <col span="1" style="width: 15%;">
     <col span="1" style="width: 30%;">
-    <col span="1" style="width: 50%;">
-	<col span="1" style="width: 15%;">
+    <col span="1" style="width: 40%;">
+	<col span="1" style="width: 25%;">
 </colgroup>
 <tr>
     <th>Naam</th>
@@ -301,3 +301,34 @@ Voor 3.3V <b>347mA</b> tegenover <b>822.6mA</b>.
 ---
 
 ## Alternatieven
+
+<table style="width: 100%">
+<colgroup>
+    <col span="1" style="width: 15%;">
+    <col span="1" style="width: 30%;">
+    <col span="1" style="width: 40%;">
+	<col span="1" style="width: 25%;">
+</colgroup>
+<tr>
+    <th>Naam</th>
+    <th>Eigenschappen</th>
+    <th>Argumentatie</th>
+    <th>Data</th>
+</tr>
+<tr>
+    <td>Naam</td>
+    <td>
+        <ul>
+            <li><b>Type</b></li>
+        </ul>
+    </td>
+    <td>
+		Argumentatie
+	</td>
+    <td>
+		<a href="./Pages/Apendix/Datasheets/.pdf">Datasheet</a><br>
+		<a href="">Documentatie fabrikant</a><br>
+		<a href="">Winkel</a><br>
+	</td>
+</tr>
+</table>
