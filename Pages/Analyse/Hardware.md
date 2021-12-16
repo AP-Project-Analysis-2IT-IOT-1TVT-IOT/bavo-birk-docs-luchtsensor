@@ -82,13 +82,13 @@
 	</td>
 </tr>
 <tr>
-    <td>HopeRF RFM95W LoRa Module - 868Mh</td>
+    <td>HopeRF RFM95W LoRa Module - 868MHz</td>
     <td>
         <ul>
             <li><b>LoRaWAN module</b></li>
             <li>V<sub>cc</sub> = 1.8V - 3.7V</li>
             <li>I<sub>max</sub> = 120mA</li>
-			<li>Vermogen van +13 dBm met 13.8mA</li>
+			<li>P = +13 dBm met 13.8mA</li>
 			<li>SPI interface</li>
 			<li>Payload lenght max 64 bytes</li>
         </ul>
@@ -206,9 +206,9 @@
 	
 ## Voeding
 
-Zoals bij de As-Is sensor hebben we onderdelen die werken op 3.3V en op 5V.
-Voor 5V behouden wij er slechts één, de Sharp GP2Y1014AU0F met I<sub>max</sub> = <b>20mA</b>.
-Voor de 3.3V componenten moeten we een herberekening doen:
+Zoals bij de As-Is sensor hebben we onderdelen die werken op 3.3V en op 5V.<br>
+Voor 5V behouden wij er slechts één, de Sharp GP2Y1014AU0F met I<sub>max</sub> = <b>20mA</b>.<br>
+Voor de 3.3V componenten moeten we een herberekening doen:<br>
 
 > Herberekeningen voor 3.3V <br>
 I<sub>max</sub> = I<sub>ATSAMD21G18A-AUT</sub> + I<sub>BME280</sub> + I<sub>SGP41</sub> + I<sub>Grove GPS Air530</sub> + I<sub>RFM95W LoRa</sub> <br>
@@ -217,8 +217,8 @@ Om wat marge te hebben doen we deze waarde maal <i>1.2</i>: 289.2mA • 1.2 = <b
 
 De spanningsvereisten liggen dit maal dus een stuk lager:
 
-> Voor 5V <b>20mA</b> tegenover <b>390mA</b>.<br>
-Voor 3.3V <b>347mA</b> tegenover <b>822.6mA</b>.
+> Voor 5V <b>20mA</b> To-Be tegenover <b>390mA</b> As-Is.<br>
+Voor 3.3V <b>347mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
 
 
 <table style="width: 100%">

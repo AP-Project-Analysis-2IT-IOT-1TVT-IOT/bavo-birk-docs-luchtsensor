@@ -23,6 +23,7 @@ Prototype in een oplage van 10 stuks met volgende eigenschappen:
 	- temperatuur
 	- vochtigheid
 	- fijnstof
+	- optioneel: NOx
 - LoRaWAN draadloze connectiviteit
 - gebruikt low power MCU
 - casing geschikt voor buiten
@@ -93,7 +94,11 @@ Rekening houdend met de realiteit dat een sensor al eens verplaatst, vervangen o
 Door de integratie van de GPS module in de sensor kan dit volledig automatisch gebeuren, zonder dat er extra handelingen vereist zijn van de gebruiker.
 
 #### Scope:
-- component selectie
+[specifiek zijn naar meting waardes (tussen .. en ..) en max prijs van componenten]
+- component selectie:
+	- microcontroller: I<sub>max</sub> < 10mA
+	- GPS module: low-power I<sub>max</sub> < As-Is 67mA
+	- LoRaWAN module: bereik hele haven over 12.068 ha = 120.680.000 m²
 - elektrisch schema ontwerp
 - PCB ontwerp
 - casing ontwerp

@@ -8,3 +8,8 @@
 | Field deployment | Het uitrollen van het systeem bij de klant, waaronder het plaatsen van de sensoren. |
 | In-the-field | Ter plaatsen waar de sensor is geplaatst. |
 | Release Plan | De planning voor het ontwikkelen van het product, na de initiële analyse. |
+| ppm | Parts per million is een maatéénheid om concentratie aan te geven. |
+| PM2.5 en PM10 | De standaard maten voor het meten van fijnstof met grote 2.5µm en 10µm. |
+| hPa | Hectopascal is een éénheid van luchtdruk. |
+| NOx | Stikstofoxide |
+| VOC | Vluchtige organische componenten, is een verzameling van allerlei vluchtige stoffen waaronder CO2 en koolmonoxide. |

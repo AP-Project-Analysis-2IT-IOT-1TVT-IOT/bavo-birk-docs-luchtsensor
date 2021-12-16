@@ -2,7 +2,9 @@
 
 ## Analyse
 
-We gebruiken Waterfall en Kanban met wekelijkse sprints.
+We gebruiken Agile en Kanban met wekelijkse sprints.
+Op het einde van elke sprint krijgen we feedback van onze begeleider.
+Ten opzichte van de opdrachtgever is het analyse proces echter wel eerder Waterfall.
 Om de planning op te volgen werken we met GitHub Projects.
 De weken duiden we aan met de academische weken, vb onze eerste week is W10. Dit wil zeggen dat dit gedeelte af moet zijn tegen de week van 29/11 tot 03/12.
 
@@ -36,8 +38,8 @@ De weken duiden we aan met de academische weken, vb onze eerste week is W10. Dit
 3. Als geldschieter wil ik weten wat de situatie to-be moet worden, wat de doelstelling van het project is, zodat ik kan inschatten of het haalbaar is. 
 4. Als opdrachtgever wil ik weten wat wel en niet binnen de scope van het project valt, zodat ik weet wat ik juist zal krijgen en wat ik eventueel zelf nog moet voorzien.
 5. Als ontwikkelaar wil ik weten wat de planning is, zodat ik weet wat wanneer af moet zijn en om het project op te volgen.
-6. Als ... wil ik weten wat het functioneel design is, zodat ik weet hoe de eind gebruiker met het product zal kunnen omgaan.
-7. Als ... wil ik weten wat het technisch design is, zodat ik weet wat de architectuur is, welke technologieën zullen gebruikt worden, en hoe het project technisch zal worden gerealiseerd.
+6. Als ontwikkelaar wil ik weten wat het functioneel design is, zodat ik weet hoe de eind gebruiker met het product zal kunnen omgaan.
+7. Als ontwikkelaar wil ik weten wat het technisch design is, zodat ik weet wat de architectuur is, welke technologieën zullen gebruikt worden, en hoe het project technisch zal worden gerealiseerd.
 8. 
 
 ## Release Plan
