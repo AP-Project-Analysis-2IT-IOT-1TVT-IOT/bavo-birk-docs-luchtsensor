@@ -11,4 +11,4 @@
 <b>Birk Tamm & Bavo Debraekeleer</b>
 Elektronica-ICT - Major Internet of Things
 
-<!-- https://ap-project-analysis-2it-iot-1tvt-iot.github.io/bavo-birk-docs-luchtsensor/#/ -->
+https://ap-project-analysis-2it-iot-1tvt-iot.github.io/bavo-birk-docs-luchtsensor/#/
