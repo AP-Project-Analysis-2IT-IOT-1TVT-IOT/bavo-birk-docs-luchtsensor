@@ -1,6 +1,7 @@
 # Hardware Analyse
 
 ## Microcontroller
+
 <table style="width: 100%">
 <colgroup>
     <col span="1" style="width: 15%;">
@@ -26,6 +27,7 @@
 			<li>256KB FLASH geheugen</li>
 			<li>32-bit RTC</li>
 			<li>6 SERCOM interfaces</li>
+			<li><b>Eenheidsprijs vanaf 10 stuks: €3,60</b></li>
         </ul>
     </td>
     <td>
@@ -42,6 +44,7 @@
 ---
 
 ## Modules
+
 <table style="width: 100%">
 <colgroup>
     <col span="1" style="width: 15%;">
@@ -69,6 +72,7 @@
             <li>UART protocol</li>
 			<li>Time of warm start: 4s</li>
 			<li>Time of cold boot: 30s</li>
+			<li><b>Eenheidsprijs vanaf 10 stuks: €8,98</b></li>
         </ul>
     </td>
     <td>
@@ -91,6 +95,7 @@
 			<li>P = +13 dBm met 13.8mA</li>
 			<li>SPI interface</li>
 			<li>Payload lenght max 64 bytes</li>
+			<li><b>Eenheidsprijs vanaf 10 stuks: €16,36</b></li>
         </ul>
     </td>
     <td>
@@ -133,6 +138,7 @@
             <li>Analoog</li>
             <li>Output voltage: zie grafiek</li>
             <li>Meetbereik PM2.5 en PM10: zie grafiek</li>
+			<li><b>Eenheidsprijs vanaf 10 stuks: €6,25</b></li>
         </ul>
     </td>
     <td>
@@ -159,6 +165,7 @@
             <li>Meetbereik luchtvochtigheid: 0% ~ 100%</li>
 			<li>Meetbereik luchtdruk: 300hPa ~ 1100hPa</li>
 			<li>Leessnelheid: 1Hz (1s)</li>
+			<li><b>Eenheidsprijs vanaf 10 stuks: €5,42</b></li>
         </ul>
     </td>
     <td>
@@ -182,22 +189,28 @@
 	<col span="1" style="width: 25%;">
 </colgroup>
 <tr>
-    <td>SGP41</td>
+    <td>Sensirion SGP41-D-R4</td>
     <td>
         <ul>
-            <li><b>NOx en VOC</b></li>
+            <li><b>NO<sub>X</sub> en VOC</b></li>
             <li>V<sub>cc</sub> = 1.7V - 3.6V</li>
-            <li>I<sub>max</sub> = 100mA</li>
-            <li>I²C protocol</li>
-            <li>Meetbereik: 0-1000ppm ethanol</li>
-            <li>Meetbereik: 0-10ppb NOx</li>
+			<li>Werkvoedingsspanning = 3.3V</li>
+            <li>I<sub>max</sub> = 4.6mA</li>
+			<li>I<sub>nominaal</sub> = 3.2mA</li>
+            <li>I²C interface</li>
+            <li>Meetbereik NO<sub>2</sub>: 0-10.000ppb</li>
+			<li>Werkingstemperatuur: -20°C ~ +55°C</li>
+			<li>SMD</li>
+			<li><b>Eenheidsprijs vanaf 10 stuks: €7,46</b></li>
         </ul>
     </td>
     <td>
-		Argumentatie
+		Klein low-power SMD component Ideaal voor deze toepassing
 	</td>
     <td>
-		<a href="./">Datasheet</a><br>
+		<a href="./Pages/Apendix/Datasheets/Sensirion-SGP41-D-R4_Datasheet.pdf">Datasheet</a><br>
+		<a href="https://www.sensirion.com/en/environmental-sensors/gas-sensors/sgp40/">Documentatie fabrikant</a><br>
+		<a href="https://www.mouser.be/ProductDetail/Sensirion/SGP41-D-R4?qs=A6eO%252BMLsxmRqwfOE5NYPVA%3D%3D">Winkel</a><br>
 	</td>
 </tr>
 </table>
@@ -334,3 +347,5 @@ Voor 3.3V <b>347mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
 	</td>
 </tr>
 </table>
+
+<div style="page-break-after: always"></div>

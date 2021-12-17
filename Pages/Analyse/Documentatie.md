@@ -12,3 +12,5 @@ In de code wordt commentaar toegevoegd om alle functionaliteiten van de code te 
 Bij oplevering zal volgende documentatie voorzien worden:
 - Handleiding over het algemeen gebruik van de sensor, kalibratie, en een overzicht van de technische specificaties van de sensor.
 - Technische documentatie met elektrische schema's en PCB ontwerp om eventuele verdere ontwikkeling mogelijk en eenvoudiger te maken.
+
+<div style="page-break-after: always"></div>

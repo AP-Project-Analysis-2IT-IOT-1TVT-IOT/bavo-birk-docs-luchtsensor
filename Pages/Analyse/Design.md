@@ -11,3 +11,5 @@
 ### GUI mock up:
 
 ## Technisch design
+
+<div style="page-break-after: always"></div>

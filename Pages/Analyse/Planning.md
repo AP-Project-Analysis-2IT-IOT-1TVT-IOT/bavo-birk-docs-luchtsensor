@@ -42,6 +42,8 @@ De weken duiden we aan met de academische weken, vb onze eerste week is W10. Dit
 7. Als ontwikkelaar wil ik weten wat het technisch design is, zodat ik weet wat de architectuur is, welke technologieën zullen gebruikt worden, en hoe het project technisch zal worden gerealiseerd.
 8. 
 
+<div style="page-break-after: always"></div>
+
 ## Release Plan
 
 Maken op het einde van de analyse.
@@ -52,3 +54,5 @@ produceren PCB’s.]
 ### Hoofdlijnen
 
 ### Toelichting fases
+
+<div style="page-break-after: always"></div>

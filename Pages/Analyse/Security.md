@@ -15,3 +15,5 @@ Bij plaatsing van een sensor op privé terrein moet wel expliciete toelating gev
 Twee autorisatierollen zullen voor dit project voldoende zijn:
 - Administrator: die wijzigingen kan maken aan instellingen en code. Deze krijgt een wachtwoord beveiliging.
 - Gebruiker: die enkel de data kan consulteren.
+
+<div style="page-break-after: always"></div>

@@ -1,14 +1,40 @@
+<br>
+
 # Luchtsensor Port of Antwerp
-![AP Hogeschool logo](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F378800000542961862%2F5c7765d0b82c5ab3831554e4dcaee38b.png&f=1&nofb=1 "AP Hogeschool")
 
-### Requierments:
-- [ ] Measure temperature
-- [ ] Measure Humidity
-- [ ] Measure dust particles
-- [ ] Measure NOx
-- [ ] Send all this data over LoRaWAN
+## Blueprint Project Analyse
+## AP Hogeschool
 
-<b>Birk Tamm & Bavo Debraekeleer</b>
+<br>
+<br>
+<br>
+
+<img src="./Pictures/APxPoA_logo.png" width="70%">
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<b>Birk Tamm & Bavo Debraekeleer</b><br>
 Elektronica-ICT - Major Internet of Things
 
-https://ap-project-analysis-2it-iot-1tvt-iot.github.io/bavo-birk-docs-luchtsensor/#/
+<br>
+
+Begeleider: Patrick Van Houtven
+Academiejaar 2021-2022
+
+<br>
+
+<a href="https://ap-project-analysis-2it-iot-1tvt-iot.github.io/bavo-birk-docs-luchtsensor/#/">GitHub Pages</a><br>
+<div style="page-break-after: always"></div>
