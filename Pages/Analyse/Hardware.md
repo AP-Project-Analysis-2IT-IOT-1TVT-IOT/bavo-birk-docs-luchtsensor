@@ -113,8 +113,6 @@
 
 ## Sensoren
 
-#### Moet zeker:
-
 <table style="width: 100%">
 <colgroup>
     <col span="1" style="width: 15%;">
@@ -177,17 +175,6 @@
 		<a href="https://www.mouser.be/ProductDetail/Bosch-Sensortec/BME280?qs=2OnyuXx6vpj2fK9HX7qb3g%3D%3D">Winkel</a><br>
 	</td>
 </tr>
-</table>
-
-#### Optioneel:
-
-<table style="width: 100%">
-<colgroup>
-    <col span="1" style="width: 15%;">
-    <col span="1" style="width: 30%;">
-    <col span="1" style="width: 40%;">
-	<col span="1" style="width: 25%;">
-</colgroup>
 <tr>
     <td>Sensirion SGP41-D-R4</td>
     <td>
