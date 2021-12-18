@@ -42,6 +42,8 @@ Deze luchtsensor is mobiel bruikbaar en slaat de data lokaal op adhv een SD-kaar
 Het doel was om de data door te sturen, via WiFi of seriëel, naar een database. Dit werd niet gerealiseerd.
 Er is wel een LCD-display aan toegevoegd om de sensordata in real-time te kunnen zien, en een aan/uit knop voor de gebruiker.
 
+<img src="./Pictures/As-Is_v1.0/3D_Case_on.jpg" width="50%">
+
 ### Eigenschappen:
 - sensor metingen:
 	- CO2
@@ -55,7 +57,7 @@ Er is wel een LCD-display aan toegevoegd om de sensordata in real-time te kunnen
 - mobiele casing met LCD
 - batterijduur onbekend
 
-### Werking (uit Product.md Versie 1.0):
+### Werking (zoals beschreven in Product.md As-Is v1.0):
 - De ESP zal om de x-aantal tijd alle sensoren aanroepen en hiervan de waardes opvragen.
 - De sensordata wordt opgeslagen, in een JSON bestand, op de SD-Card.
 - Nadien kan de gebruiker deze SD-card in zijn computer uitlezen en de data met een simpele knop overzetten naar de MongoDB.
@@ -64,8 +66,13 @@ Er is wel een LCD-display aan toegevoegd om de sensordata in real-time te kunnen
 
 #### Blok diagram
 
-<img src="./Pictures/BlockDiagrams/As-Is_BlockDiagram.png">
+<img src="./Pictures/BlockDiagrams/As-Is_BlockDiagram.png"><br>
 
+#### As-Is v1.0 prototype foto's
+
+<img src="./Pictures/As-Is_v1.0/BRD.jpg" width="50%"><br>
+<img src="./Pictures/As-Is_v1.0/3D_Case_inside1.jpg" width="50%"><br>
+<img src="./Pictures/As-Is_v1.0/3D_Case_off.jpg" width="50%"><br>
 
 ### Probleemstelling
 Het huidige prototype moet geoptimaliseerd worden zodat deze meer dan één jaar kan werken op een batterij. Om dit te realiseren is een andere MCU nodig en dienen er aanpassingen gemaakt te worden aan de keuze van componenten.
