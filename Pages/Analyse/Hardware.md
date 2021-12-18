@@ -1,3 +1,5 @@
+#
+
 # Hardware Analyse
 
 ## Microcontroller
@@ -212,14 +214,13 @@ Voor de 3.3V componenten moeten we een herberekening doen:<br>
 
 > Herberekeningen voor 3.3V <br>
 I<sub>max</sub> = I<sub>ATSAMD21G18A-AUT</sub> + I<sub>BME280</sub> + I<sub>SGP41</sub> + I<sub>Grove GPS Air530</sub> + I<sub>RFM95W LoRa</sub> <br>
-I<sub>max</sub> = 4.7mA + 4.5mA + 100mA + 60mA + 120mA = 289.2mA <br>
-Om wat marge te hebben doen we deze waarde maal <i>1.2</i>: 289.2mA • 1.2 = <b>347.0mA</b>
+I<sub>max</sub> = 4.7mA + 4.5mA + 4.6mA + 60mA + 120mA = 193.8mA <br>
+Om wat marge te hebben doen we deze waarde maal <i>1.2</i>: 193.8mA • 1.2 = <b>232.6mA</b>
 
 De spanningsvereisten liggen dit maal dus een stuk lager:
 
 > Voor 5V <b>20mA</b> To-Be tegenover <b>390mA</b> As-Is.<br>
-Voor 3.3V <b>347mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
-
+Voor 3.3V <b>232.6mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
 
 <table style="width: 100%">
 <colgroup>

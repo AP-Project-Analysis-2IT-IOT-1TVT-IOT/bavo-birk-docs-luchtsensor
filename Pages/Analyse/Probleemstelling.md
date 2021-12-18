@@ -1,3 +1,5 @@
+#
+
 # Probleemstelling
 
 ## Opdrachtgever
@@ -42,7 +44,7 @@ Deze luchtsensor is mobiel bruikbaar en slaat de data lokaal op adhv een SD-kaar
 Het doel was om de data door te sturen, via WiFi of seriëel, naar een database. Dit werd niet gerealiseerd.
 Er is wel een LCD-display aan toegevoegd om de sensordata in real-time te kunnen zien, en een aan/uit knop voor de gebruiker.
 
-<img src="./Pictures/As-Is_v1.0/3D_Case_on.jpg" width="50%">
+<img src="./Pictures/As-Is_v1.0/3D_Case_on.jpg" width="50%"><img src="./Pictures/As-Is_v1.0/3D_Case_off.jpg" width="50%"><br>
 
 ### Eigenschappen:
 - sensor metingen:
@@ -70,9 +72,7 @@ Er is wel een LCD-display aan toegevoegd om de sensordata in real-time te kunnen
 
 #### As-Is v1.0 prototype foto's
 
-<img src="./Pictures/As-Is_v1.0/BRD.jpg" width="50%"><br>
-<img src="./Pictures/As-Is_v1.0/3D_Case_inside1.jpg" width="50%"><br>
-<img src="./Pictures/As-Is_v1.0/3D_Case_off.jpg" width="50%"><br>
+<img src="./Pictures/As-Is_v1.0/BRD.jpg" width="50%"><img src="./Pictures/As-Is_v1.0/3D_Case_inside1.jpg" width="50%">
 
 ### Probleemstelling
 Het huidige prototype moet geoptimaliseerd worden zodat deze meer dan één jaar kan werken op een batterij. Om dit te realiseren is een andere MCU nodig en dienen er aanpassingen gemaakt te worden aan de keuze van componenten.
