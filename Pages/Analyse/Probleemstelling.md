@@ -70,8 +70,6 @@ Er is wel een LCD-display aan toegevoegd om de sensordata in real-time te kunnen
 
 <img src="./Pictures/BlockDiagrams/As-Is_BlockDiagram.png"><br>
 
-#### As-Is v1.0 prototype foto's
-
 <img src="./Pictures/As-Is_v1.0/BRD.jpg" width="50%"><img src="./Pictures/As-Is_v1.0/3D_Case_inside1.jpg" width="50%">
 
 ### Probleemstelling

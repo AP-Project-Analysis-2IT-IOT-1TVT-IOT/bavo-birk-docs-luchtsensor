@@ -15,6 +15,8 @@
 | hPa | Hectopascal is een éénheid van luchtdruk. |
 | NOx | Stikstofoxide |
 | VOC | Vluchtige organische componenten, is een verzameling van allerlei vluchtige stoffen waaronder CO2 en koolmonoxide. |
+| APICA | Antwerp Port Information & Control Assistant, de digitale assistent in de Port of Antwerp digital twin. |
+| Digital twin | Een digitale 3D nabootsing van een echt gegeven, bvb de Port of Antwerp. |
 
 ---
 
