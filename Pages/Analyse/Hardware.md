@@ -81,6 +81,7 @@
 		Deze GPS module is zeer energie zuinig met verschillende low-power modi. Ze is ook relatief goedkoop en werkt op 3.3V.
 	</td>
     <td>
+		<a href="./Pages/Apendix/Datasheets/Air530-GPS_Manual_Text_English.pdf">Handleiding</a><br>
 		<a href="https://wiki.seeedstudio.com/Grove-GPS-Air530/">Documentatie fabrikant</a><br>
 		<a href="https://www.seeedstudio.com/Grove-GPS-Air530-p-4584.html">Winkel (fabrikant)</a><br>
 		<a href="https://www.mouser.be/new/seeed-studio/seeedstudio-grove-gps-air530-module/">Winkel</a><br>
@@ -93,8 +94,8 @@
         <ul>
             <li><b>LoRaWAN module</b></li>
             <li>V<sub>cc</sub> = 1.8V - 3.7V</li>
-            <li>I<sub>max</sub> = 120mA</li>
-			<li>P = +13 dBm met 13.8mA</li>
+            <li>I<sub>+13dBm(Typ)</sub> = 29mA</li>
+			<li>P = +13 dBm</li>
 			<li>SPI interface</li>
 			<li>Payload lenght max 64 bytes</li>
 			<li><b>Eenheidsprijs vanaf 10 stuks: €16,36</b></li>
@@ -136,8 +137,8 @@
             <li>V<sub>cc</sub> = 4.5V - 5.5V</li>
             <li>I<sub>max</sub> = 20mA</li>
             <li>Analoog</li>
-            <li>Output voltage: zie grafiek</li>
-            <li>Meetbereik PM2.5 en PM10: zie grafiek</li>
+            <li>Output voltage: 0.9~3.7V (zie grafiek)</li>
+            <li>Meetbereik PM2.5 en PM10: 0~50µg/m3 (zie grafiek)</li>
 			<li><b>Eenheidsprijs vanaf 10 stuks: €6,25</b></li>
         </ul>
     </td>
@@ -160,7 +161,7 @@
             <li><b>Temperatuur, barometer en luchtvochtigheid</b></li>
             <li>V<sub>cc</sub> = 3.3V</li>
             <li>I<sub>max</sub> = 4.5mA</li>
-            <li>I²C protocol 3.3V</li>
+            <li>I²C protocol 3.3V, en SPI</li>
             <li>Meetbereik temperatuur: -40°C ~ +85°C</li>
             <li>Meetbereik luchtvochtigheid: 0% ~ 100%</li>
 			<li>Meetbereik luchtdruk: 300hPa ~ 1100hPa</li>
@@ -214,13 +215,13 @@ Voor de 3.3V componenten moeten we een herberekening doen:<br>
 
 > Herberekeningen voor 3.3V <br>
 I<sub>max</sub> = I<sub>ATSAMD21G18A-AUT</sub> + I<sub>BME280</sub> + I<sub>SGP41</sub> + I<sub>Grove GPS Air530</sub> + I<sub>RFM95W LoRa</sub> <br>
-I<sub>max</sub> = 4.7mA + 4.5mA + 4.6mA + 60mA + 120mA = 193.8mA <br>
-Om wat marge te hebben doen we deze waarde maal <i>1.2</i>: 193.8mA • 1.2 = <b>232.6mA</b>
+I<sub>max</sub> = 4.7mA + 4.5mA + 4.6mA + 60mA + 29mA = 102.8mA <br>
+Om wat marge te hebben doen we deze waarde maal <i>1.2</i>: 102.8mA • 1.2 = <b>123.4mA</b>
 
 De spanningsvereisten liggen dit maal dus een stuk lager:
 
 > Voor 5V <b>20mA</b> To-Be tegenover <b>390mA</b> As-Is.<br>
-Voor 3.3V <b>232.6mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
+Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
 
 <table style="width: 100%">
 <colgroup>

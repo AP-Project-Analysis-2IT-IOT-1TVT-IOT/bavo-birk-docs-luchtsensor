@@ -17,6 +17,9 @@
 | VOC | Vluchtige organische componenten, is een verzameling van allerlei vluchtige stoffen waaronder CO2 en koolmonoxide. |
 | APICA | Antwerp Port Information & Control Assistant, de digitale assistent in de Port of Antwerp digital twin. |
 | Digital twin | Een digitale 3D nabootsing van een echt gegeven, bvb de Port of Antwerp. |
+| Realtime | De laatste nieuwe data wordt weergegeven van zodra ze beschikbaar is. |
+| Timestamp | Een aanduiding met tijd en datum voor wanneer de data is opgemeten. |
+| I/O | Inputs/Outputs, mbt inkomende en uitgaande data, of ingangen en uitgangen in een systeem. |
 
 ---
 

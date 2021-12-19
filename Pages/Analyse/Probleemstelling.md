@@ -31,7 +31,7 @@ Prototype in een oplage van 10 stuks met volgende eigenschappen:
 	- optioneel: NO<sub>X</sub>
 - LoRaWAN draadloze connectiviteit
 - gebruikt low power MCU
-- casing geschikt voor buiten
+- behuizing geschikt voor buiten
 - batterijduur van meer dan 1 jaar
 - user interface om de data in kaart vorm weer te geven
 
@@ -56,7 +56,7 @@ Er is wel een LCD-display aan toegevoegd om de sensordata in real-time te kunnen
 - WiFi en Bluetooth connectiviteit
 - SD-kaart voor lokale data opslag
 - GPS module
-- mobiele casing met LCD
+- mobiele behuizing met LCD
 - batterijduur onbekend
 
 ### Werking (zoals beschreven in Product.md As-Is v1.0):
@@ -110,14 +110,14 @@ Door de integratie van de GPS module in de sensor kan dit volledig automatisch g
 	- microcontroller: I<sub>max</sub> < 10mA
 	- GPS module: low-power I<sub>max</sub> < As-Is 67mA
 	- LoRaWAN module: zendbereik hele haven over 12.068 ha = 120.680 km²
-	- fijnstof sensor: PM2.5 en PM10 concentratie in µg/m3
+	- fijnstof sensor: PM2.5 en PM10 concentratie, meetbereik 0-40 µg/m3
 	- temperatuur sensor: meetbereik -20° ~ +42° (<a href="https://www.frankdeboosere.be/vragen/vraag53.php#:~:text=De%20hoogste%20maximumtemperatuur%20werd%20die,%3A%20MIN%2030%2C1%20graden.">kouste en warmste meting in België</a>)<br>
 	- luchtvochtigheid sensor: meetbereik 0% ~ 100% (<a href="https://www.eurabo.be/nl/lexicon/relatieve-vochtigheid">relatieve luchtvochtigheid</a>)<br>
-	- NO<sub>X</sub> sensor: concentratie in µg/m3
+	- NO<sub>X</sub> sensor: concentratie, meetbereik 0-40 µg/m3
 - elektrisch schema ontwerp voor de PCB
-- PCB en casing ontwerp met aandacht voor sensor plaatsing voor zo accuraat mogelijke metingen
-- schroefdraad in casing als bevestigingspunt voor een ophangsysteem
-- initiële calibratie fijnstof sensor 
+- PCB en behuizing ontwerp met aandacht voor sensor plaatsing voor zo accuraat mogelijke metingen
+- schroefdraad in behuizing als bevestigingspunt voor een ophangsysteem
+- initiële calibratie fijnstof sensor: de analoge spannings output bij 0mg/m³ opmeten en aftrekken van de output Vo
 
 #### Niet in scope:
 - LoRaWAN ontvanger opzetten
