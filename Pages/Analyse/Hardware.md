@@ -89,15 +89,17 @@
 	</td>
 </tr>
 <tr>
-    <td>HopeRF RFM95W LoRa Module - 868MHz</td>
+    <td>HopeRF RFM95W v2.0 LoRa Module</td>
     <td>
         <ul>
             <li><b>LoRaWAN module</b></li>
             <li>V<sub>cc</sub> = 1.8V - 3.7V</li>
             <li>I<sub>+13dBm(Typ)</sub> = 29mA</li>
-			<li>P = +13 dBm</li>
+			<li>P<sub>output</sub> = +13dBm</li>
 			<li>SPI interface</li>
 			<li>Payload lenght max 64 bytes</li>
+			<li>Werkingstemperatuur: -20°C ~ +70°C</li>
+			<li>Lower bands: 169 MHz and 433 MHz, higher bands: 868 and 915 MHz</li>
 			<li><b>Eenheidsprijs vanaf 10 stuks: €16,36</b></li>
         </ul>
     </td>
@@ -105,7 +107,7 @@
 		Een veel gebruikte module waardoor er veel documentatie over te vinden is. Ook relatief klein.
 	</td>
     <td>
-		<a href="./Pages/Apendix/Datasheets/HopeRF-RFM95W_Datasheet.pdf">Datasheet</a><br>
+		<a href="./Pages/Apendix/Datasheets/HopeRF_RFM95W-V2.0_Datasheet.pdf">Datasheet</a><br>
 		<a href="https://www.hoperf.com/modules/lora/RFM95.html">Documentatie fabrikant</a><br>
 		<a href="https://www.mouser.be/ProductDetail/RF-Solutions/RFM95W-868S2?qs=sGAEpiMZZMu3sxpa5v1qriuzrjO9DfPi5Wv3OoHC154%3D">Winkel</a><br>
 	</td>
@@ -216,7 +218,7 @@ Voor de 3.3V componenten moeten we een herberekening doen:<br>
 > Herberekeningen voor 3.3V <br>
 I<sub>max</sub> = I<sub>ATSAMD21G18A-AUT</sub> + I<sub>BME280</sub> + I<sub>SGP41</sub> + I<sub>Grove GPS Air530</sub> + I<sub>RFM95W LoRa</sub> <br>
 I<sub>max</sub> = 4.7mA + 4.5mA + 4.6mA + 60mA + 29mA = 102.8mA <br>
-Om wat marge te hebben doen we deze waarde maal <i>1.2</i>: 102.8mA • 1.2 = <b>123.4mA</b>
+Om wat marge te hebben doen we deze waarde maal <i>1.2</i> :<br> 102.8mA • 1.2 = <b>123.4mA</b>
 
 De spanningsvereisten liggen dit maal dus een stuk lager:
 

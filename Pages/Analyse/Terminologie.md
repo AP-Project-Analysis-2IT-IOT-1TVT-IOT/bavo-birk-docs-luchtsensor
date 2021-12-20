@@ -20,6 +20,7 @@
 | Realtime | De laatste nieuwe data wordt weergegeven van zodra ze beschikbaar is. |
 | Timestamp | Een aanduiding met tijd en datum voor wanneer de data is opgemeten. |
 | I/O | Inputs/Outputs, mbt inkomende en uitgaande data, of ingangen en uitgangen in een systeem. |
+| MVP | Minimal Viable Product, is een omschrijving van de minimale kenmerken die het product versie 1.0 moet hebben om opgeleverd te worden aan de klant. |
 
 ---
 

@@ -21,40 +21,34 @@
     <td>MCU ATSAMD21G18A-AUT</td>
     <td>
         <ul>
-            <li>Sensordata fijnstof: analoog met ADC</li>
-			<li></li>
+            <li>Sensordata fijnstof, temperatuur, luchtvochtigheid en stikstofoxiden</li>
+			<li>GPS NMEA0183 V4.1 protocol data</li>
+			<li>LoRa module feedback</li>
         </ul>
     </td>
     <td>
 		<ul>
-            <li>PWM naar fijnstof sensor</li>
+            <li>Configuratie en aansturing sensors en modules</li>
+			<li>Sensordata als JSON object, SPI</li>
         </ul>
 	</td>
 </tr>
 <tr>
-    <td>Fijnstof sensor GP2Y1014AU0F</td>
+    <td>fijnstofsensor GP2Y1014AU0F</td>
     <td>
-        <ul>
-            <li>PWM om LED aan te sturen (T = 10ms; Pw = 0.32ms)</li>
-        </ul>
+        <ul>PWM om LED aan te sturen (T = 10ms; Pw = 0.32ms)</ul>
     </td>
     <td>
-		<ul>
-            <li>Analoge spanning pulse (Vo lezen na 0.28ms)</li>
-        </ul>
+		<ul>Analoge spanning pulse (Vo lezen na 0.28ms)</ul>
 	</td>
 </tr>
 <tr>
-    <td>Temperatuur sensor BME280</td>
+    <td>Temperatuur en luchtvochtigheid sensor BME280</td>
     <td>
-        <ul>
-            <li>Uit te lezen register, I²C</li>
-        </ul>
+        <ul>Uit te lezen register, I²C</ul>
     </td>
     <td>
-		<ul>
-            <li>Register data uitlezen, I²C</li>
-        </ul>
+		<ul>Register data uitlezen, I²C</ul>
 	</td>
 </tr>
 <tr>
@@ -63,91 +57,68 @@
         <ul>
             <li>Conditioning instructies, I²C</li>
 			<li>Raw signal meting instructies, I²C</li>
-			<li>Stop instructie, I²C>/li>
+			<li>Stop instructie, I²C</li>
         </ul>
     </td>
     <td>
-		<ul>
-            <li>Meting resultaat uitlezen, I²C</li>
-        </ul>
+		<ul>Meting resultaat uitlezen, I²C</ul>
 	</td>
 </tr>
 <tr>
     <td>GPS module Grove GPS Air530</td>
     <td>
-        <ul>
-            <li>Start en configuratie instructies, serieel UART (2.8V)</li>
-        </ul>
+        <ul>Start en configuratie instructies, serieel UART (2.8V)</ul>
     </td>
     <td>
-		<ul>
-            <li>GPS NMEA0183 V4.1 protocol data, serieel UART (2.8V, default 9600bps)</li>
-        </ul>
+		<ul>GPS NMEA0183 V4.1 protocol data, serieel UART (2.8V, default 9600bps)</ul>
 	</td>
 </tr>
 <tr>
-    <td>LoRaWAN module RFM95W</td>
+    <td>LoRaWAN module RFM95W v2.0</td>
     <td>
         <ul>
-            <li>Sensordata als JSON object, SPI</li>
-        </ul>
+			<li>Mode instructie, SPI</li>
+			<li>Sensordata als JSON object, SPI</li>
+		</ul>
     </td>
     <td>
-		<ul>
-            <li>Sensordata als payload van max 51 bytes, TTN 868MHz +13dbM</li>
-        </ul>
+		<ul>Sensordata als payload van max 51 bytes, TTN 868MHz +13dbM</ul>
 	</td>
 </tr>
 <tr>
     <td>LoRaWAN ontvanger</td>
     <td>
-        <ul>
-            <li>Sensordata als payload van max 51 bytes, TTN 868MHz +13dbM</li>
-        </ul>
+        <ul>Sensordata als payload van max 51 bytes, TTN 868MHz +13dbM</ul>
     </td>
     <td>
-		<ul>
-            <li>Sensor data opgedeeld in bytes in een byte array van max 51 bytes</li>
-        </ul>
+		<ul>Sensor data opgedeeld in bytes in een byte array van max 51 bytes</ul>
 	</td>
 </tr>
 <tr>
     <td>Backend Node-RED</td>
     <td>
-        <ul>
-            <li>Sensor data opgedeeld in bytes in een byte array van max 51 bytes</li>
-        </ul>
+        <ul>Sensor data opgedeeld in bytes in een byte array van max 51 bytes</ul>
     </td>
     <td>
-		<ul>
-            <li>Sensor data bytes gedecodeerd in JSON object</li>
-        </ul>
+		<ul>Sensor data bytes gedecodeerd in JSON object</ul>
 	</td>
 </tr>
 <tr>
     <td>Database MongoDb</td>
     <td>
-        <ul>
-            <li>Sensordata als JSON object</li>
-        </ul>
+        <ul>Sensordata als JSON object</ul>
     </td>
     <td>
-		<ul>
-            <li>Sensordata als JSON object</li>
-        </ul>
+		<ul>Sensordata als JSON object</ul>
 	</td>
 </tr>
 <tr>
     <td>GUI Port of Antwerp digital twin</td>
     <td>
-        <ul>
-            <li>Sensordata als JSON object</li>
-        </ul>
+        <ul>Sensordata als JSON object</ul>
     </td>
     <td>
-		<ul>
-            <li>Weergave op een scherm</li>
-        </ul>
+		<ul>Weergave op een scherm</ul>
 	</td>
 </tr>
 </table>
