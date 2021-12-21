@@ -3,7 +3,7 @@
 # Probleemstelling
 
 ## Opdrachtgever
-Maarten Luyts is product owner, in opdracht van Port of Antwerp.
+Maarten Luyts, in opdracht van Port of Antwerp.
 
 ## Korte samenvatting
 [Schrijven op het einde 250-500 woorden + ondersteunend diagram, zie IOT template.]

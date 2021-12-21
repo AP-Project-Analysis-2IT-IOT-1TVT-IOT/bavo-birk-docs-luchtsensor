@@ -36,62 +36,62 @@
 <tr>
     <td>fijnstofsensor GP2Y1014AU0F</td>
     <td>
-        <ul>PWM om LED aan te sturen (T = 10ms; Pw = 0.32ms)</ul>
+        <ul>PWM om LED aan te sturen (T = 10ms; Pw = 0.32ms), <b>PWM</b></ul>
     </td>
     <td>
-		<ul>Analoge spanning pulse (Vo lezen na 0.28ms)</ul>
+		<ul>Analoge spanning pulse (Vo lezen na 0.28ms, <b>Analoog</b>)</ul>
 	</td>
 </tr>
 <tr>
     <td>Temperatuur en luchtvochtigheid sensor BME280</td>
     <td>
-        <ul>Uit te lezen register, I²C</ul>
+        <ul>Uit te lezen register, <b>I²C</b></ul>
     </td>
     <td>
-		<ul>Register data uitlezen, I²C</ul>
+		<ul>Register data uitlezen, <b>I²C</b></ul>
 	</td>
 </tr>
 <tr>
     <td>Stikstofoxiden sensor SGP41-D-R4</td>
     <td>
         <ul>
-            <li>Conditioning instructies, I²C</li>
-			<li>Raw signal meting instructies, I²C</li>
-			<li>Stop instructie, I²C</li>
+            <li>Conditioning instructies, <b>I²C</b></li>
+			<li>Raw signal meting instructies, <b>I²C</b></li>
+			<li>Stop instructie, <b>I²C</b></li>
         </ul>
     </td>
     <td>
-		<ul>Meting resultaat uitlezen, I²C</ul>
+		<ul>Meting resultaat uitlezen, <b>I²C</b></ul>
 	</td>
 </tr>
 <tr>
     <td>GPS module Grove GPS Air530</td>
     <td>
-        <ul>Start en configuratie instructies, serieel UART (2.8V)</ul>
+        <ul>Start en configuratie instructies, <b>serieel UART</b> (2.8V)</ul>
     </td>
     <td>
-		<ul>GPS NMEA0183 V4.1 protocol data, serieel UART (2.8V, default 9600bps)</ul>
+		<ul>GPS NMEA0183 V4.1 protocol data, <b>serieel UART</b> (2.8V, default 9600bps)</ul>
 	</td>
 </tr>
 <tr>
     <td>LoRaWAN module RFM95W v2.0</td>
     <td>
         <ul>
-			<li>Mode instructie, SPI</li>
-			<li>Sensordata als JSON object, SPI</li>
+			<li>Mode instructie, <b>SPI</b></li>
+			<li>Sensor data opgedeeld in bytes, in een byte array van max 51 bytes, <b>SPI</b></li>
 		</ul>
     </td>
     <td>
-		<ul>Sensordata als payload van max 51 bytes, TTN 868MHz +13dbM</ul>
+		<ul>Sensordata als payload van max 51 bytes, <b>TTN 868MHz +13dbM</b></ul>
 	</td>
 </tr>
 <tr>
     <td>LoRaWAN ontvanger</td>
     <td>
-        <ul>Sensordata als payload van max 51 bytes, TTN 868MHz +13dbM</ul>
+        <ul>Sensordata als payload van max 51 bytes, <b>TTN 868MHz +13dbM</b></ul>
     </td>
     <td>
-		<ul>Sensor data opgedeeld in bytes in een byte array van max 51 bytes</ul>
+		<ul>Sensor data opgedeeld in bytes, in een byte array van max 51 bytes</ul>
 	</td>
 </tr>
 <tr>
