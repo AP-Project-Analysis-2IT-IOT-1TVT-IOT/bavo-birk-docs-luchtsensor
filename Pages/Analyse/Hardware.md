@@ -242,6 +242,26 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
     <td>Naam</td>
     <td>
         <ul>
+            <li><b>Batterij</b></li>
+            <li>V<sub>out</sub> = V</li>
+            <li>I<sub>max</sub> = mA</li>
+            <li>Operating Temperatuur = </li>
+			<li>SOT-..</li>
+        </ul>
+    </td>
+    <td>
+		Argumentatie
+	</td>
+    <td>
+		<a href="./Pages/Apendix/Datasheets/.pdf">Datasheet</a><br>
+		<a href="">Documentatie fabrikant</a><br>
+		<a href="">Winkel</a><br>
+	</td>
+</tr>
+<tr>
+    <td>Naam</td>
+    <td>
+        <ul>
             <li><b>5V Voltage Regulator</b></li>
             <li>V<sub>in</sub> = V</li>
             <li>V<sub>out</sub> = 5V</li>

@@ -104,9 +104,21 @@ Door de integratie van de GPS module in de sensor kan dit volledig automatisch g
 ### Projectdefinitie
 
 #### Minimal Viable Product
+Prototype met volgende eigenschappen:
+- sensor metingen uitvoeren:
+	- temperatuur
+	- vochtigheid
+	- fijnstof
+- werking op batterij
+- behuizing 3D print
+- sensordata verzenden met LoRaWAN
+- sensordata ontvangen en opslaan
 
 #### Epics
-[An agile epic is a body of work that can be broken down into specific tasks (called user stories) based on the needs/requests of customers or end-users.]
+1. Metingen uitvoeren
+2. Sensordata verzenden
+3. Sensordata beheer
+4. Weergave op kaart
 
 ### Blok diagram
 

@@ -19,23 +19,26 @@ De weken duiden we aan met de academische weken, vb onze eerste week is W10. Dit
 
 ### Toelichting fases
 
-> #### Fase 1: Probleemstelling en Planning
->> Omschrijving van de opdrachtgever, korte samenvatting, de situatie as-is, en de situatie to-be met een projectdefinitie (doelstelling, scope, niet in scope).
+#### Fase 1: Probleemstelling en Planning
+> - Omschrijving van de opdrachtgever, korte samenvatting, de situatie as-is, en de situatie to-be met een projectdefinitie (doelstelling, scope, niet in scope).
+> - Planning met user stories voor de Analyse, met Kanban methodologie.
 
->> Planning adhv user stories voor zowel de Analyse, met Kanban methodologie, als het Release Plan, met Gantt Chart methodologie.
+#### Fase 2: Hardware analyse
+> Vooraleer je de software kan analyseren moet je weten waarop de software gaat runnen, vandaar dat we de hardware als eerste analyseren.
 
-> #### Fase 2: Hardware analyse
->> Vooraleer je de software kan analyseren moet je weten waarop de software gaat runnen, vandaar dat we de hardware als eerste analyseren.
+#### Fase 3: Hardware schema + I/O software
+> Eens je weet welke componenten je hebt en hoe ze tussen mekaar verbonden zijn in het hardware schema kan je de inputs en outputs oplijsten. Dit is handig voor de diagrammen later.
 
-> #### Fase 3: Hardware schema + I/O software
->> Eens je weet welke componenten je hebt en hoe ze tussen mekaar verbonden zijn in het hardware schema kan je de inputs en outputs oplijsten. Dit is handig voor de diagrammen later.
+#### Fase 4: Diagrammen opstellen + Dashboard
+> Nu dat de inputs en outputs gekend zijn is het veel eenvoudiger om de diagrammen op te stellen van de software. Eens die diagrammen er zijn is het mogelijk om het dashboard te analyseren.
 
-> #### Fase 4: Diagrammen opstellen + Dashboard
->> Nu dat de inputs en outputs gekend zijn is het veel eenvoudiger om de diagrammen op te stellen van de software. Eens die diagrammen er zijn is het mogelijk om het dashboard te analyseren.
+#### Fase 5: Release Plan en samenvatting
+> - We weten nu wat er gemaakt moet worden dus kunnen we het Release Plan, met Gantt Chart methodologie, uitwerken.
+> - Als laatste schrijven we nog een samenvatting van het gehele project.
 
 ### User stories
 - Als ... Wil ik ... Zodat ik ...
-1. Als geldschieter wil ik weten wie de opdrachtgever is en wat de opdracht, in het kort, is, zodat ik een snel idee kan krijgen van het project.
+1. Als geldschieter wil ik weten wie de opdrachtgever is en wat de opdracht in het kort is, zodat ik een snel idee kan krijgen van het project.
 2. Als geldschieter wil ik weten wat de huidige as-is situatie is van het vorige project en de probleemstelling adhv dit huidige proces, zodat ik goed weet hoever het nu staat, wat de eventuele moeilijkheden zijn en hoe er hierop gaat voortgebouwd worden.
 3. Als geldschieter wil ik weten wat de situatie to-be moet worden, wat de doelstelling van het project is, zodat ik kan inschatten of het haalbaar is. 
 4. Als opdrachtgever wil ik weten wat wel en niet binnen de scope van het project valt, zodat ik weet wat ik juist zal krijgen en wat ik eventueel zelf nog moet voorzien.
