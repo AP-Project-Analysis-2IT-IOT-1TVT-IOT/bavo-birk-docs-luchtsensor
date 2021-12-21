@@ -16,32 +16,32 @@
     <th>Data output</th>
 </tr>
 <tr>
-    <td>MCU ATSAMD21G18A-AUT</td>
+    <td>MCU: Microship ATSAMD21G18A-AUT</td>
     <td>
         <ul>
-            <li>Sensordata fijnstof, temperatuur, luchtvochtigheid en stikstofoxiden</li>
-			<li>GPS NMEA0183 V4.1 protocol data</li>
-			<li>LoRa module feedback</li>
+            <li>Sensordata fijnstof, temperatuur, luchtvochtigheid en stikstofoxiden, <b>I²C, Analoog</b></li>
+			<li>GPS NMEA0183 V4.1 protocol data, <b>UART</b></li>
+			<li>LoRa module feedback, <b>SPI</b></li>
         </ul>
     </td>
     <td>
 		<ul>
-            <li>Configuratie en aansturing sensors en modules</li>
-			<li>Sensordata als JSON object, SPI</li>
+            <li>Configuratie en aansturing sensors en modules, <b>serieel UART, I²C, PWM, SPI</b></li>
+			<li>Sensordata als JSON object, <b>SPI</b></li>
         </ul>
 	</td>
 </tr>
 <tr>
-    <td>fijnstofsensor GP2Y1014AU0F</td>
+    <td>Fijnstofsensor: Sharp GP2Y1014AU0F</td>
     <td>
         <ul>PWM om LED aan te sturen (T = 10ms; Pw = 0.32ms), <b>PWM</b></ul>
     </td>
     <td>
-		<ul>Analoge spanning pulse (Vo lezen na 0.28ms, <b>Analoog</b>)</ul>
+		<ul>Analoge spanning pulse (Vo lezen na 0.28ms), <b>Analoog</b></ul>
 	</td>
 </tr>
 <tr>
-    <td>Temperatuur en luchtvochtigheid sensor BME280</td>
+    <td>Temperatuur en luchtvochtigheid sensor: Bosch Sensortec BME280</td>
     <td>
         <ul>Uit te lezen register, <b>I²C</b></ul>
     </td>
@@ -50,7 +50,7 @@
 	</td>
 </tr>
 <tr>
-    <td>Stikstofoxiden sensor SGP41-D-R4</td>
+    <td>Stikstofoxiden sensor: Sensirion SGP41-D-R4</td>
     <td>
         <ul>
             <li>Conditioning instructies, <b>I²C</b></li>
@@ -63,7 +63,7 @@
 	</td>
 </tr>
 <tr>
-    <td>GPS module Grove GPS Air530</td>
+    <td>GPS module: Seeed Studio Grove-GPS Air530</td>
     <td>
         <ul>Start en configuratie instructies, <b>serieel UART</b> (2.8V)</ul>
     </td>
@@ -72,7 +72,7 @@
 	</td>
 </tr>
 <tr>
-    <td>LoRaWAN module RFM95W v2.0</td>
+    <td>LoRaWAN module: HopeRF RFM95W v2.0</td>
     <td>
         <ul>
 			<li>Mode instructie, <b>SPI</b></li>
@@ -93,7 +93,7 @@
 	</td>
 </tr>
 <tr>
-    <td>Backend Node-RED</td>
+    <td>Backend: Node-RED</td>
     <td>
         <ul>Sensor data opgedeeld in bytes, byte array van max 51 bytes, <b>netwerk</b></ul>
     </td>
@@ -102,7 +102,7 @@
 	</td>
 </tr>
 <tr>
-    <td>Database MongoDb</td>
+    <td>Database: MongoDb</td>
     <td>
         <ul>Sensordata als JSON object, <b>netwerk</b></ul>
     </td>
@@ -111,7 +111,7 @@
 	</td>
 </tr>
 <tr>
-    <td>Web API</td>
+    <td>Web API: Pyhton Flask</td>
     <td>
         <ul>Sensordata als JSON object, <b>netwerk</b></ul>
     </td>
@@ -120,7 +120,7 @@
 	</td>
 </tr>
 <tr>
-    <td>GUI Port of Antwerp digital twin</td>
+    <td>GUI: Port of Antwerp digital twin</td>
     <td>
         <ul>Sensordata als JSON object, <b>HTTP request</b></ul>
     </td>
@@ -130,6 +130,9 @@
 </tr>
 </table>
 
+<img src="./Pictures/BlockDiagrams/To-Be_BlockDiagram.png">
+
+<div style="page-break-after: always"></div>
 
 #
 

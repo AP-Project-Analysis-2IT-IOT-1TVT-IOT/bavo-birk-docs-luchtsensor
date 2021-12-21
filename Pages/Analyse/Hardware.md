@@ -18,7 +18,7 @@
     <th>Data</th>
 </tr>
 <tr>
-    <td>ATSAMD21G18A-AUT</td>
+    <td>Microchip ATSAMD21G18A-AUT</td>
     <td>
         <ul>
             <li><b>Low-power MCU</b></li>
@@ -315,6 +315,8 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
             <li>V<sub>DDS(max)</sub> = 60V</li>
             <li>I<sub>max</sub> = 380mA</li>
 			<li>SOT-23</li>
+			<li><i>Eenheidsprijs vanaf 10 stuks: €0,169</i></li>
+			<li><i>Lead time: 89 weken</i></li>
         </ul>
     </td>
     <td>
