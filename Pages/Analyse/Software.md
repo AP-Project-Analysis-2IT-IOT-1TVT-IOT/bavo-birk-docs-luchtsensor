@@ -2,8 +2,6 @@
 
 # Software Analyse
 
-#
-
 ## Data I/O
 
 <table style="width: 100%">
@@ -78,7 +76,7 @@
     <td>
         <ul>
 			<li>Mode instructie, <b>SPI</b></li>
-			<li>Sensor data opgedeeld in bytes, in een byte array van max 51 bytes, <b>SPI</b></li>
+			<li>Sensor data opgedeeld in bytes, byte array van max 51 bytes, <b>SPI</b></li>
 		</ul>
     </td>
     <td>
@@ -91,34 +89,43 @@
         <ul>Sensordata als payload van max 51 bytes, <b>TTN 868MHz +13dbM</b></ul>
     </td>
     <td>
-		<ul>Sensor data opgedeeld in bytes, in een byte array van max 51 bytes</ul>
+		<ul>Sensor data opgedeeld in bytes, byte array van max 51 bytes, <b>netwerk</b></ul>
 	</td>
 </tr>
 <tr>
     <td>Backend Node-RED</td>
     <td>
-        <ul>Sensor data opgedeeld in bytes in een byte array van max 51 bytes</ul>
+        <ul>Sensor data opgedeeld in bytes, byte array van max 51 bytes, <b>netwerk</b></ul>
     </td>
     <td>
-		<ul>Sensor data bytes gedecodeerd in JSON object</ul>
+		<ul>Sensor data bytes gedecodeerd in JSON object, <b>netwerk</b></ul>
 	</td>
 </tr>
 <tr>
     <td>Database MongoDb</td>
     <td>
-        <ul>Sensordata als JSON object</ul>
+        <ul>Sensordata als JSON object, <b>netwerk</b></ul>
     </td>
     <td>
-		<ul>Sensordata als JSON object</ul>
+		<ul>Sensordata als JSON object, <b>netwerk</b></ul>
+	</td>
+</tr>
+<tr>
+    <td>Web API</td>
+    <td>
+        <ul>Sensordata als JSON object, <b>netwerk</b></ul>
+    </td>
+    <td>
+		<ul>Sensordata als JSON object, <b>HTTP respons</b></ul>
 	</td>
 </tr>
 <tr>
     <td>GUI Port of Antwerp digital twin</td>
     <td>
-        <ul>Sensordata als JSON object</ul>
+        <ul>Sensordata als JSON object, <b>HTTP request</b></ul>
     </td>
     <td>
-		<ul>Weergave op een scherm</ul>
+		<ul>Weergave op scherm</ul>
 	</td>
 </tr>
 </table>
@@ -126,15 +133,29 @@
 
 #
 
-## GUI
+## GUI mockup
 
-De data van de sensors bevat een coördinaat en tijdstip van de meting voor eenvoudige weergaven op een kaart.
-Zo kan de data eenvoudig geïntegreerd worden in de <a href="https://www.portofantwerp.com/en/smart-port">digital twin van de Port of Antwerp</a> en weergegeven worden in zowel 2D en 3D.
-De data kan in realtime worden weergegeven, er kan genavigeerd worden door de tijd, of een exacte timestamp kan ingegeven worden.
+De sensordata bevat een coördinaat en tijdstip van de meting voor eenvoudige weergaven op een kaart.
+Zo kan de data eenvoudig worden opgevraagd via een API en geïntegreerd worden in de <a href="https://www.portofantwerp.com/en/smart-port">digital twin van de Port of Antwerp</a>.
+De data kan in realtime worden weergegeven, er kan genavigeerd worden door de tijd, of een exacte timestamp kan ingegeven worden. Dit zowel op een 2D kaart als in een 3D nabootsing van de haven.
 
 <img src="./Pictures/Mockups/Mockup_GUI_2D.png" width="100%"><br><br>
 <img src="./Pictures/Mockups/Mockup_GUI_3D.png" width="100%"><br>
 
 <div style="page-break-after: always"></div>
+
+#
+
+## Statediagram
+
+<img src="./Pictures/Diagrammen/Statediagram.png" width="100%"><br>
+
+<div style="page-break-after: always"></div>
+
+# 
+
+## Flowcharts
+
+<img src="./Pictures/Diagrammen/Flowchart_01.png" width="100%"><br>
 
 <div style="page-break-after: always"></div>

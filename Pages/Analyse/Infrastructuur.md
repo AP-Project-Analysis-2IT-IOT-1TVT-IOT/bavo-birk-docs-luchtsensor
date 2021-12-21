@@ -3,6 +3,7 @@
 # Infrastructuur
 
 Er is in de Port of Antwerp al een LoRaWAN netwerk aanwezig. Deze kan dus gebruikt worden.
-Verder moet er enkel nog een server opgezet te worden om de database en de webserver op te kunnen draaien.
+De backend kan op een bestaande server opgezet worden. Indien er geen beschikbaar is moet een nieuwe worden opgezet.
+Er moet rekening gehouden worden met het onderhoud van de server en de sensoren.
 
 <div style="page-break-after: always"></div>

@@ -33,7 +33,7 @@ Prototype in een oplage van 10 stuks met volgende eigenschappen:
 - gebruikt low power MCU
 - behuizing geschikt voor buiten
 - batterijduur van meer dan 1 jaar
-- user interface om de data op landkaart weer te geven
+- user interface om de data op een landkaart weer te geven
 
 <div style="page-break-after: always"></div>
 
@@ -90,8 +90,8 @@ Ook moet de sensor in de schaduw geplaatst worden of voorzien worden van een zon
 ## Situatie To-Be
 
 ### Doelstelling
-Het doel is het in kaart brengen van de luchtkwaliteit in de gehele Port of Antwerp adhv volledig draadloze sensoren die voor meer als één jaar autonoom kunnen werken.
-De data verzenden vanuit de sensor en ontvangen door een server zal gebeuren adhv LoRaWAN.
+Het doel is het in kaart brengen van de luchtkwaliteit in de gehele Port of Antwerp met volledig draadloze sensoren die voor meer als één jaar autonoom kunnen werken.
+De data verzenden vanuit de sensor en ontvangen door een server zal gebeuren met LoRaWAN.
 Er moet een nieuwe behuizing ontworpen worden waar meer rekening wordt gehouden met luchtdoorstroming en temperatuur zoals beschreven in de probleemstelling.
 Dit ontwerp moet ook worden doorgevoerd naar het PCB ontwerp en de plaatsing van de sensoren.
 
@@ -101,24 +101,27 @@ Zo kunnen we een exacte locatie geven aan de data gemeten door elke sensor.
 Rekening houdend met de realiteit dat een sensor al eens verplaatst, vervangen of hersteld zal worden, kan een GPS module zorgen voor een eenvoudige manier om aan accurate coördinaten te komen.
 Door de integratie van de GPS module in de sensor kan dit volledig automatisch gebeuren, zonder dat er extra handelingen vereist zijn van de gebruiker.
 
+De weergave van de data zal gebeuren met de eigen digital twin die de Port of Antwerp in ontwikkeling heeft.
+De data moet beschikbaar gemaakt worden in een API. Zo kan de digital twin de data ophalen en weergeven in 2D en 3D representatie van de haven.
+
 ### Projectdefinitie
 
 #### Minimal Viable Product
 Prototype met volgende eigenschappen:
 - sensor metingen uitvoeren:
-	- temperatuur
-	- vochtigheid
-	- fijnstof
+>	- temperatuur
+>	- vochtigheid
+>	- fijnstof
 - werking op batterij
 - behuizing 3D print
 - sensordata verzenden met LoRaWAN
 - sensordata ontvangen en opslaan
 
 #### Epics
-1. Metingen uitvoeren
-2. Sensordata verzenden
-3. Sensordata beheer
-4. Weergave op kaart
+> 1. Metingen uitvoeren
+> 2. Sensordata verzenden
+> 3. Sensordata beheer
+> 4. Weergave op kaart
 
 ### Blok diagram
 
@@ -128,26 +131,27 @@ De effectieve werking zal voor elk blok echter verschillen door de andere compon
 
 <img src="./Pictures/BlockDiagrams/To-Be_BlockDiagram.png">
 
-### Scope:
-- component selectie, totaalprijs < €100:
-	- microcontroller: I<sub>max</sub> < 10mA
-	- GPS module: low-power I<sub>max</sub> < As-Is 67mA
-	- LoRaWAN module: zendbereik hele haven over 12.068 ha = 120.680 km²
-	- fijnstofsensor: PM2.5 en PM10 concentratie, meetbereik 0-40 µg/m3
-	- temperatuur sensor: meetbereik -20° ~ +42° (<a href="https://www.frankdeboosere.be/vragen/vraag53.php#:~:text=De%20hoogste%20maximumtemperatuur%20werd%20die,%3A%20MIN%2030%2C1%20graden.">kouste en warmste meting in België</a>)<br>
-	- luchtvochtigheid sensor: meetbereik 0% ~ 100% (<a href="https://www.eurabo.be/nl/lexicon/relatieve-vochtigheid">relatieve luchtvochtigheid</a>)<br>
-	- NO<sub>X</sub> sensor: concentratie, meetbereik 0-40 µg/m3
-- elektrisch schema ontwerp voor de PCB
+### Scope
+- Component selectie, totaalprijs < €100:
+>	- microcontroller: I<sub>max</sub> < 10mA
+>	- GPS module: low-power I<sub>max</sub> < As-Is 67mA
+>	- LoRaWAN module: zendbereik hele haven over 12.068 ha = 120.680 km²
+>	- fijnstofsensor: PM2.5 en PM10 concentratie, meetbereik 0-40 µg/m3
+>	- temperatuur sensor: meetbereik -20° ~ +42° (<a href="https://www.frankdeboosere.be/vragen/vraag53.php#:~:text=De%20hoogste%20maximumtemperatuur%20werd%20die,%3A%20MIN%2030%2C1%20graden.">kouste en warmste meting in België</a>)<br>
+>	- luchtvochtigheid sensor: meetbereik 0% ~ 100% (<a href="https://www.eurabo.be/nl/lexicon/relatieve-vochtigheid">relatieve luchtvochtigheid</a>)<br>
+>	- NO<sub>X</sub> sensor: concentratie, meetbereik 0-40 µg/m3
+- Elektrisch schema ontwerp voor de PCB
 - PCB en behuizing ontwerp met aandacht voor sensor plaatsing voor zo accuraat mogelijke metingen
-- schroefdraad in behuizing als bevestigingspunt voor een ophangsysteem
-- initiële calibratie fijnstofsensor: de analoge spannings output bij 0mg/m³ opmeten en aftrekken van de output Vo
+- Schroefdraad in behuizing als bevestigingspunt voor een ophangsysteem
+- Initiële calibratie fijnstofsensor: de analoge spannings output bij 0mg/m³ opmeten en aftrekken van de output Vo
+- Backend en API code
 
-### Niet in scope:
+### Niet in scope
 - LoRaWAN ontvanger opzetten
-- front-end user interface
-- servers en server onderhoud
-- field deployment
-- plaatsing van de sensors en het ophangsysteem
-- in-the-field kalibratie
+- Servers en server onderhoud
+- Field deployment/plaatsing van de sensors en het ophangsysteem
+- In-the-field kalibratie
+- Backend deployment
+- Implementatie in de digital twin
 
 <div style="page-break-after: always"></div>

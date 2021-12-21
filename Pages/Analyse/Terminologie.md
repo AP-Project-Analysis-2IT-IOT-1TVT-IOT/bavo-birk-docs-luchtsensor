@@ -21,6 +21,9 @@
 | Timestamp | Een punt in de tijd, aanduiding met tijd en datum voor wanneer de data is opgemeten. |
 | I/O | Inputs/Outputs, mbt inkomende en uitgaande data, of ingangen en uitgangen in een systeem. |
 | MVP | Minimal Viable Product, is een omschrijving van de minimale kenmerken die het product versie 1.0 moet hebben om opgeleverd te worden aan de klant. |
+| backend | Alles van code dat achter de schermen gebeurt en ontzichtbaar is voor de gebruiker. |
+| frontend | Alles wat zichtbaar is voor de gebruiker. Gelijk aan de GUI. |
+| API | Application Programming Interface definieert toegang tot functionaliteit die erachter schuil gaat. In geval van de luchtsensor kan je via de API de sensordata uit de database opvragen. |
 
 ---
 
