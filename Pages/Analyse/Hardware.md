@@ -29,7 +29,8 @@
 			<li>256KB FLASH geheugen</li>
 			<li>32-bit RTC</li>
 			<li>6 SERCOM interfaces</li>
-			<li><b>Eenheidsprijs vanaf 10 stuks: €3,60</b></li>
+			<li><i>Eenheidsprijs vanaf 10 stuks: €3,60</i></li>
+			<li><i>Lead time: 54 weken</i></li>
         </ul>
     </td>
     <td>
@@ -74,7 +75,8 @@
             <li>UART protocol</li>
 			<li>Time of warm start: 4s</li>
 			<li>Time of cold boot: 30s</li>
-			<li><b>Eenheidsprijs vanaf 10 stuks: €8,98</b></li>
+			<li><i>Eenheidsprijs vanaf 10 stuks: €8,98</i></li>
+			<li><i>Lead time: 11 weken</i></li>
         </ul>
     </td>
     <td>
@@ -100,7 +102,8 @@
 			<li>Payload lenght max 64 bytes</li>
 			<li>Werkingstemperatuur: -20°C ~ +70°C</li>
 			<li>Lower bands: 169 MHz and 433 MHz, higher bands: 868 and 915 MHz</li>
-			<li><b>Eenheidsprijs vanaf 10 stuks: €16,36</b></li>
+			<li><i>Eenheidsprijs vanaf 10 stuks: €16,36</i></li>
+			<li><i>Lead time: 17 weken</i></li>
         </ul>
     </td>
     <td>
@@ -141,7 +144,8 @@
             <li>Analoog</li>
             <li>Output voltage: 0.9~3.7V (zie grafiek)</li>
             <li>Meetbereik PM2.5 en PM10: 0~50µg/m3 (zie grafiek)</li>
-			<li><b>Eenheidsprijs vanaf 10 stuks: €6,25</b></li>
+			<li><i>Eenheidsprijs vanaf 10 stuks: €6,25</i></li>
+			<li><i>Lead time: 53 weken</i></li>
         </ul>
     </td>
     <td>
@@ -168,7 +172,8 @@
             <li>Meetbereik luchtvochtigheid: 0% ~ 100%</li>
 			<li>Meetbereik luchtdruk: 300hPa ~ 1100hPa</li>
 			<li>Leessnelheid: 1Hz (1s)</li>
-			<li><b>Eenheidsprijs vanaf 10 stuks: €5,42</b></li>
+			<li><i>Eenheidsprijs vanaf 10 stuks: €5,42</i></li>
+			<li><i>Lead time: tijdelijk beperkt aanbod op moment van schrijven</i></li>
         </ul>
     </td>
     <td>
@@ -193,7 +198,8 @@
             <li>Meetbereik NO<sub>2</sub>: 0-10.000ppb</li>
 			<li>Werkingstemperatuur: -20°C ~ +55°C</li>
 			<li>SMD</li>
-			<li><b>Eenheidsprijs vanaf 10 stuks: €7,46</b></li>
+			<li><i>Eenheidsprijs vanaf 10 stuks: €7,46</i></li>
+			<li><i>Lead time: 16 weken</i></li>
         </ul>
     </td>
     <td>
