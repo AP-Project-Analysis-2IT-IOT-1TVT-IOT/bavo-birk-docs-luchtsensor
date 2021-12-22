@@ -2,7 +2,7 @@
 
 # Software Analyse
 
-## Data I/O
+### Data I/O
 
 <table style="width: 100%">
 <colgroup>
@@ -130,17 +130,66 @@
 </tr>
 </table>
 
-<img src="./Pictures/BlockDiagrams/To-Be_BlockDiagram.png">
+#### Blok diagram
+
+<img src="./Pictures/Diagrams/To-Be_BlockDiagram.png">
 
 <div style="page-break-after: always"></div>
 
 #
 
-## GUI mockup
+## Smart Object
 
-De sensordata bevat een coördinaat en tijdstip van de meting voor eenvoudige weergaven op een kaart.
-Zo kan de data eenvoudig worden opgevraagd via een API en geïntegreerd worden in de <a href="https://www.portofantwerp.com/en/smart-port">digital twin van de Port of Antwerp</a>.
-De data kan in realtime worden weergegeven, er kan genavigeerd worden door de tijd, of een exacte timestamp kan ingegeven worden. Dit zowel op een 2D kaart als in een 3D nabootsing van de haven.
+Het Smart Object is de sensor zelf.
+
+### Smart Object Statediagram
+
+<img src="./Pictures/Diagrams/SmartObject_Statediagram.png" width="100%"><br>
+
+<div style="page-break-after: always"></div>
+
+# 
+
+### Smart Object Flowcharts
+
+<img src="./Pictures/Diagrams/Flowchart_01.png" width="100%"><br>
+
+<div style="page-break-after: always"></div>
+
+#
+
+## Backend
+
+De backend is het gedeelte dat achter de schermen gebeurt vanaf ontvangst van de sensordata.
+
+### Backend Statediagram
+
+<img src="./Pictures/Diagrams/Backend_Statediagram.png" width="100%"><br>
+
+<div style="page-break-after: always"></div>
+
+# 
+
+### Backend Flowcharts
+
+<img src="./Pictures/Diagrams/Flowchart_01.png" width="100%"><br>
+
+<div style="page-break-after: always"></div>
+
+#
+
+## Graphical User Interface
+
+De sensordata bevat een GPS coördinaat en tijdstip van de meting voor eenvoudige weergaven op een kaart.
+Zo kan de data eenvoudig worden opgevraagd via een API en geïntegreerd worden in de <a href="https://www.portofantwerp.com/en/smart-port">digital twin van de Port of Antwerp</a>.<br>
+
+De data kan in realtime worden weergegeven, er kan genavigeerd worden door de tijd, of een exacte timestamp kan ingegeven worden.
+Dit zowel op een 2D kaart als in een 3D nabootsing van de haven.
+
+We bekijken in dit onderdeel enkel de nodige werking voor het weergeven van de sensordata.
+Andere functionaliteiten van de digital twin komen niet aan bod.
+
+### GUI mockup
 
 <img src="./Pictures/Mockups/Mockup_GUI_2D.png" width="100%"><br><br>
 <img src="./Pictures/Mockups/Mockup_GUI_3D.png" width="100%"><br>
@@ -149,16 +198,16 @@ De data kan in realtime worden weergegeven, er kan genavigeerd worden door de ti
 
 #
 
-## Statediagram
+### GUI Statediagram
 
-<img src="./Pictures/Diagrammen/Statediagram.png" width="100%"><br>
+<img src="./Pictures/Diagrams/GUI_Statediagram.png" width="100%"><br>
 
 <div style="page-break-after: always"></div>
 
 # 
 
-## Flowcharts
+### GUI Flowcharts
 
-<img src="./Pictures/Diagrammen/Flowchart_01.png" width="100%"><br>
+<img src="./Pictures/Diagrams/Flowchart_01.png" width="100%"><br>
 
 <div style="page-break-after: always"></div>

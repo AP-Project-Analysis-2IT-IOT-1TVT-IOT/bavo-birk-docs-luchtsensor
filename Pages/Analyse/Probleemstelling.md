@@ -69,7 +69,7 @@ Er is wel een LCD-display aan toegevoegd om de sensordata in real-time te kunnen
 
 ### Blok diagram
 
-<img src="./Pictures/BlockDiagrams/As-Is_BlockDiagram.png"><br>
+<img src="./Pictures/Diagrams/As-Is_BlockDiagram.png"><br>
 
 <img src="./Pictures/As-Is_v1.0/BRD.jpg" width="50%"><img src="./Pictures/As-Is_v1.0/3D_Case_inside1.jpg" width="50%">
 
@@ -129,7 +129,7 @@ Door de grote wijziging in doel tussen de As-Is en To-Be situaties wordt zowat e
 De algemene werking blijft hetzelfde: aan/uit → metingen uitvoeren → sensordata verzamelen → verzenden → in database opslaan → weergeven in GUI.
 De effectieve werking zal voor elk blok echter verschillen door de andere component keuzes.
 
-<img src="./Pictures/BlockDiagrams/To-Be_BlockDiagram.png">
+<img src="./Pictures/Diagrams/To-Be_BlockDiagram.png">
 
 ### Scope
 - Component selectie, totaalprijs < €100:

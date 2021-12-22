@@ -2,16 +2,11 @@
 
 # Security
 
-De sensor heeft twee grote zwaktes met betrekking tot security:
-
-1. <b>De microcontroller</b>:<br>
+De microcontroller kan als zwak punt beschouwd worden.
 De zwakte van de MCU is voornamelijk dat deze geherprogrammeerd kan worden en voor andere doeleinden gebruikt worden.
 Dit process moet na opleveren zo moeilijk mogelijk gemaakt worden. Hoe dit best te doen moet onderzocht worden tijdens de ontwikkeling.
 
-2. <b>Het verzenden van de data</b>:<br>
-Zoals in het gedeelte over privacy hieronder beschreven gaat het hier niet om gevoelige data.
-Het kan echter beschouwd worden als best practice om de te verzenden data te encrypteren voor het verzenden.
-Moest er gewenst worden om de data toch niet publiek beschikbaar te maken is de data op deze manier niet leesbaar wanneer onderschept.
+Het verzenden van de data met LoRa is standaard beveiligd met symmetrische encryptie.
 
 ## Hardware security
 De sensors kunnen best op een zekere hoogte geplaatst worden waar ze niet te gemakkelijk toegankelijk zijn.
