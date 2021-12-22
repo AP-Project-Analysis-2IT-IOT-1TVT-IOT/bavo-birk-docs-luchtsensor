@@ -132,7 +132,7 @@
 
 #### Blok diagram
 
-<img src="./Pictures/Diagrams/To-Be_BlockDiagram.png">
+<img src="./Pictures/Diagrams/To-Be_BlockDiagram.png" width="100%">
 
 <div style="page-break-after: always"></div>
 
@@ -152,7 +152,20 @@ Het Smart Object is de sensor zelf.
 
 ### Smart Object Flowcharts
 
-<img src="./Pictures/Diagrams/Flowchart_01.png" width="100%"><br>
+##### 1. MCU boot
+<img src="./Pictures/Diagrams/SmartObject_FlowChart-01_MCUboot.png" width="100%"><br>
+
+##### 2. Get GPS location
+<img src="./Pictures/Diagrams/SmartObject_FlowChart-02_GetGPSlocation.png" width="100%"><br>
+
+##### 3. Standby
+<img src="./Pictures/Diagrams/SmartObject_FlowChart-03_Standby.png" width="100%"><br>
+
+##### 4. Get sensordata
+<img src="./Pictures/Diagrams/SmartObject_FlowChart-04_GetSensordata.png" width="100%"><br>
+
+##### 5. Send data
+<img src="./Pictures/Diagrams/SmartObject_FlowChart-05_SendData.png" width="100%"><br>
 
 <div style="page-break-after: always"></div>
 

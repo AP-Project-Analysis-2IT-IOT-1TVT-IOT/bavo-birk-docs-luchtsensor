@@ -24,6 +24,7 @@
 | backend | Alles van code dat achter de schermen gebeurt en ontzichtbaar is voor de gebruiker. |
 | frontend | Alles wat zichtbaar is voor de gebruiker. Gelijk aan de GUI. |
 | API | Application Programming Interface definieert toegang tot functionaliteit die erachter schuil gaat. In geval van de luchtsensor kan je via de API de sensordata uit de database opvragen. |
+| TTN | The Things Network, een globale community en ecosystem dat netwerken, toestellen en oplossingen bouwt gebruik makende van LoRaWAN. |
 
 ---
 
