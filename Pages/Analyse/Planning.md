@@ -4,8 +4,8 @@
 
 ## Analyse
 
-Er wordt Agile en Kanban om flexibel te werken en zo snel mogelijk vooruit te gaan.
-Elke week tijdens het labo wordt feedback ontvange van de begeleider meneer Van Houtven. Waarna verbeteringen kunnen uitgevoerd worden en de planning bijgestuurd worden.
+Er wordt Agile en Kanban gebruikt om flexibel te werken en zo snel mogelijk vooruit te gaan.
+Elke week tijdens het labo wordt feedback ontvangen van de begeleider meneer Van Houtven. Waarna verbeteringen kunnen uitgevoerd worden en de planning bijgestuurd worden.
 Ten opzichte van de opdrachtgever is het analyse proces wel eerder Waterfall. Er is enkel een ineterview geweest aan de start van de analyse.
 Om de planning op te volgen werken we met een Kanban bord op GitHub Projects.
 
