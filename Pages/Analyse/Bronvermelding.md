@@ -2,7 +2,6 @@
 
 # Bronvermelding
 
-<div style="page-break-after: always"></div>
 
 > GitHub. 2021. GitHub - sivaelid/Heltec_AB02S_Mods. [online] Available at: <https://github.com/sivaelid/Heltec_AB02S_Mods> [Accessed 17 December 2021].
 
@@ -57,3 +56,9 @@
 
 > SHARP. (2015, February). DUST SENSOR. Mouser
 > Electronics.
+
+---
+
+
+
+<div style="page-break-after: always"></div>

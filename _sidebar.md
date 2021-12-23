@@ -12,7 +12,6 @@
   * [Infrastructuur](./Pages/Analyse/Infrastructuur.md)
   * [Security](./Pages/Analyse/Security.md)
   * [Documentatie](./Pages/Analyse/Documentatie.md)
-  * [Terminologie](./Pages/Analyse/Terminologie.md)
   * [Bronvermelding](./Pages/Analyse/Bronvermelding.md)
 
 * Presentatie

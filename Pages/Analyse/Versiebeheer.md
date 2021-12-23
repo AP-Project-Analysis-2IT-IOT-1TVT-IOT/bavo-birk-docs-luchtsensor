@@ -9,7 +9,7 @@
 | 0.1.0 | 2021-12-05 | <b>Bavo Debraekeleer</b>, Tamm Birk, Patrick Van Houtven | Eerste draft | Probleemstelling + blokschema's As-Is en To-Be + planning + design + terminologie |
 | 0.1.1 | 2021-12-09 | <b>Bavo Debraekeleer</b>, Tamm Birk | Verbetering | User stories analyse planning + aanpassingen probleemstelling + design |
 | 0.1.2 | 2021-12-15 | <b>Bavo Debraekeleer</b>, Tamm Birk | GitHub Pages aanmaak | GitHub Pages met Docsify setup + Docsify to PDF setup + update readme en algemene opmaak |
-| 0.2.0 | 2021-12-15 | <b>Tamm Birk</b>, Bavo Debraekeleer Patrick Van Houtven | Tweede draft | Hardware analyse sensoren |
+| 0.2.0 | 2021-12-15 | <b>Tamm Birk</b>, Bavo Debraekeleer, Patrick Van Houtven | Tweede draft | Hardware analyse sensoren |
 | 0.2.1 | 2021-12-15 | <b>Bavo Debraekeleer</b>, Tamm Birk | Verbetering en aanvulling | Nieuwe blokschema's As-Is en To-Be + Hardware analyse uitbreiding, argumentatie, documentatie, stroom gebruik berekeningen + layouting | 
 | 0.2.2 | 2021-12-16 | <b>Bavo Debraekeleer</b>, Tamm Birk | Aanvulling | Aanvulling scope + datamigratie, infrastructuur, security secties toegevoegd | 
 | 0.3.0 | 2021-12-18 | <b>Bavo Debraekeleer</b>, Tamm Birk, Patrick Van Houtven | Derde draft | Verdere verbeteringen adhv feedback + aanvulling scope en hardware + opmaak en readme | 
@@ -22,7 +22,7 @@
 | 0.3.7 | 2021-12-22 | <b>Tamm Birk</b>, Bavo Debraekeleer | Aanvulling | Hardware analyse aanvulling voeding + smart object |
 | 0.3.8 | 2021-12-23 | <b>Tamm Birk</b>, Bavo Debraekeleer | Aanvulling | Smart object hardware blokdiagram + elektrisch schema |
 | 0.3.9 | 2021-12-23 | <b>Bavo Debraekeleer</b>, Tamm Birk | Aanvulling | Samenvatting en bijhorend blokdiagram + verbetering To-Be blokdiagram |
-| 1.0.0 | 2021-12-23 | <b>Bavo Debraekeleer</b>, Tamm Birk | Versie 1 | Versiecontrole + bronvermeldingen + Release plan Gantt chart + aanvulling flowcharts |
+| 1.0.0 | 2021-12-23 | <b>Bavo Debraekeleer</b>, Tamm Birk, Patrick Van Houtven, Maarten Luyts | Versie 1 | Versiecontrole + bronvermeldingen + Release plan Gantt chart + aanvulling flowcharts |
 
 ---
 
