@@ -312,7 +312,7 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
     <td>
 		<a href="./Pages/Apendix/Datasheets/RP100N331D.pdf">Datasheet</a><br>
 		<a href="">Documentatie fabrikant</a><br>
-		<a href="https://be.farnell.com/stmicroelectronics/ld1117s33tr/v-reg-ldo-3-3v-smd-1117-sot-223/dp/1202826">Winkel</a><br>
+		<a href="https://eu.mouser.com/ProductDetail/Ricoh-Electronic-Devices-Company/RP100N331D-TR-FE?qs=ilL34mSzaLidaNrLOeMfjw%3D%3D">Winkel</a><br>
 	</td>
 </tr>
 <tr>
