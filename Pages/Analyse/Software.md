@@ -133,6 +133,7 @@
 #### Blok diagram
 
 <img src="./Pictures/Diagrams/To-Be_BlockDiagram.png" width="100%">
+
 ---
 
 <div style="page-break-after: always"></div>
@@ -146,6 +147,7 @@ Het Smart Object is de sensor zelf.
 ### Smart Object Statediagram
 
 <img src="./Pictures/Diagrams/SmartObject_Statediagram.png" width="100%"><br>
+
 ---
 
 <div style="page-break-after: always"></div>
@@ -156,22 +158,27 @@ Het Smart Object is de sensor zelf.
 
 ##### 1. MCU boot
 <img src="./Pictures/Diagrams/SmartObject_FlowChart-01_MCUboot.png"><br>
+
 ---
 
 ##### 2. Get GPS location
 <img src="./Pictures/Diagrams/SmartObject_FlowChart-02_GetGPSlocation.png"><br>
+
 ---
 
 ##### 3. Standby
 <img src="./Pictures/Diagrams/SmartObject_FlowChart-03_Standby.png"><br>
+
 ---
 
 ##### 4. Get sensordata
 <img src="./Pictures/Diagrams/SmartObject_FlowChart-04_GetSensordata.png"><br>
+
 ---
 
 ##### 5. Send data
 <img src="./Pictures/Diagrams/SmartObject_FlowChart-05_SendData.png"><br>
+
 ---
 
 <div style="page-break-after: always"></div>
@@ -185,6 +192,7 @@ De backend is het gedeelte dat achter de schermen gebeurt vanaf ontvangst van de
 ### Backend Statediagram
 
 <img src="./Pictures/Diagrams/Backend_Statediagram.png" width="100%"><br>
+
 ---
 
 <div style="page-break-after: always"></div>
@@ -194,6 +202,7 @@ De backend is het gedeelte dat achter de schermen gebeurt vanaf ontvangst van de
 ### Backend Flowcharts
 
 <img src="./Pictures/Diagrams/Flowchart_01.png"><br>
+
 ---
 
 <div style="page-break-after: always"></div>
@@ -223,6 +232,7 @@ Andere functionaliteiten van de digital twin komen niet aan bod.
 ### GUI Statediagram
 
 <img src="./Pictures/Diagrams/GUI_Statediagram.png" width="100%"><br>
+
 ---
 
 <div style="page-break-after: always"></div>
@@ -232,6 +242,7 @@ Andere functionaliteiten van de digital twin komen niet aan bod.
 ### GUI Flowcharts
 
 <img src="./Pictures/Diagrams/Flowchart_01.png"><br>
+
 ---
 
 <div style="page-break-after: always"></div>
