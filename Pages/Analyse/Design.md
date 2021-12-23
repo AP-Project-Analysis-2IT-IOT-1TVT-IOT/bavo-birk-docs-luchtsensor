@@ -63,7 +63,7 @@
     <td>Web API</td>
     <td><b>Python Flask</b></td>
 	<td>
-		Flask is een light-weight web framework in Python. Hiermee kan je zelf bepalen welke componenten en extension je wilt gebruiken voor de API.<br>
+		Flask is een light-weight web framework in Python. Hiermee kan je zelf bepalen welke componenten en extension je wilt gebruiken voor de API.
 		Wij gebruiken (<a href="https://towardsdatascience.com/creating-a-beautiful-web-api-in-python-6415a40789af">tutorial</a>):<br>
 		<ul>
 			<li><b>MongoEngine</b> voor het omgaan met MongoDB in een objectgeoriënteerde manier.</li>

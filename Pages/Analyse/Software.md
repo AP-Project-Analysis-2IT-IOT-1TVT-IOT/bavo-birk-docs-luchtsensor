@@ -146,7 +146,7 @@ Het Smart Object is de sensor zelf.
 
 ### Smart Object Statediagram
 
-<img src="./Pictures/Diagrams/SmartObject_Statediagram.png" width="100%"><br>
+<img src="./Pictures/Diagrams/SmartObject_Statediagram.png"><br>
 
 ---
 
@@ -191,7 +191,7 @@ De backend is het gedeelte dat achter de schermen gebeurt vanaf ontvangst van de
 
 ### Backend Statediagram
 
-<img src="./Pictures/Diagrams/Backend_Statediagram.png" width="100%"><br>
+<img src="./Pictures/Diagrams/Backend_Statediagram.png"><br>
 
 ---
 
@@ -231,7 +231,7 @@ Andere functionaliteiten van de digital twin komen niet aan bod.
 
 ### GUI Statediagram
 
-<img src="./Pictures/Diagrams/GUI_Statediagram.png" width="100%"><br>
+<img src="./Pictures/Diagrams/GUI_Statediagram.png"><br>
 
 ---
 

@@ -5,8 +5,21 @@
 ## Opdrachtgever
 Maarten Luyts, in opdracht van Port of Antwerp.
 
-## Korte samenvatting
-[Schrijven op het einde 250-500 woorden + ondersteunend diagram, zie IOT template.]
+## Inleiding
+De Port of Antwerp bouwt aan de meest duurzame haven van Europa. De SDG’s of ontwikkelingsdoelstellingen van de Verenigde Naties dienen als toetssteen hiervoor. Twee van de kern SDG’s zijn gezondheid en welzijn. De luchtkwaliteit speelt hierbij een grote rol. Hierop hebben het verkeer en de industriële activiteiten in de haven een grote impact. Om doeltreffende maatregelen te kunnen uitwerken, als ook voor de opvolging, is het belangrijk een nauwkeurig beeld te hebben van de luchtkwaliteit in de hele haven.
+Hiernaast gelooft de Port of Antwerp ook in innovatie als hefboom richting een duurzame toekomst. Zo is er reeds een LoRaWAN netwerk opgezet in de haven voor draadloze communicatie van IoT  Internet of Things smart devices. Ook is er een digital twin van de haven in ontwikkeling. Een virtuele nabootsing waarin de activiteiten in de haven zichtbaar worden gemaakt door middel van al de data die beschikbaar is. De ingebouwde digitale assistente APICA zal deze data ook continu analyseren en monitoren op mogelijke problemen of aandachtspunten voor het bestuur van de haven.
+
+Het doel van dit project is een IoT oplossing ontwikkelen om de luchtkwaliteit van de hele haven in kaart te brengen. Dit met autonome low-cast draadloze sensors die verspreid worden over het havengebied. Het zullen relatief kleine en goedkope toestellen zijn die op batterij werken voor meer dan een jaar. Hierdoor is het mogelijk deze in grote hoeveelheden uit te rollen om een zo gedetailleerd mogelijke luchtkwaliteitskaart te bekomen.
+Om dit doel te bereiken wordt er verder gebouwd op het huidige IoT Air Quiality Sensor project binnen AP Hogeschool. Deze vormt de basis waaruit we vertrekken, maar er gebeuren heel wat aanpassingen aan de sensor zelf. De focus ligt op het draadloos zijn en heel laag energieverbruik voor lange batterijduur. Hiervoor worden de meeste componenten vervangen door energiezuinigere varianten. Er wordt ook gebruik gemaakt van de innovatie in de haven. Het verzenden en ontvangen van de sensordata gebeurt met LoRaWAN. Het ontvangen in de backend, wat achter de schermen gebeurd, wordt dus ook aangepast. Het opslaan in de database kunnen we hergebruiken.
+Als laatste is er de weergave van de sensordata. Hiervoor zal de digital twin gebruikt worden. De data zal zo weergegeven worden op een virtuele interactieve driedimensionale kaart van de haven en automatisch gemonitord worden door de digitale assistente APICA.
+
+Raadpleeg onderstaand schema voor een visueel overzicht.
+
+<img src="./Pictures/Diagrams/Summary_BlockDiagram.png" width="100%">
+
+<div style="page-break-after: always"></div>
+
+#
 
 ## Opdracht
 

@@ -102,7 +102,7 @@
 	</td>
 </tr>
 <tr>
-    <td>HopeRF RFM95W v2.0 LoRa Module</td>
+    <td>HopeRF RFM95W-868S2 868MHz v2.0 LoRa Module</td>
     <td>
         <ul>
             <li><b>LoRaWAN module</b></li>
@@ -112,7 +112,7 @@
 			<li>SPI interface</li>
 			<li>Payload lenght max 64 bytes</li>
 			<li>Werkingstemperatuur: -20°C ~ +70°C</li>
-			<li>Lower bands: 169 MHz and 433 MHz, higher bands: 868 and 915 MHz</li>
+			<li>Operating band: 868MHz</li>
 			<li><i>Eenheidsprijs vanaf 10 stuks: €16,36</i></li>
 			<li><i>Lead time: 17 weken</i></li>
         </ul>
@@ -262,8 +262,10 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
             <li><b>Batterij</b></li>
             <li>V<sub>out</sub> = 3.7V</li>
             <li>I<sub>max</sub> = 2A</li>
-	    <li>I<sub>h</sub>   = 3700mAh</li>
+			<li>I<sub>h</sub>   = 3700mAh</li>
             <li>Operating Temperatuur = -20~60</li>
+			<li><i>Eenheidsprijs vanaf 10 stuks: €16,99</i></li>
+			<li><i>Lead time: onbekend</i></li>
         </ul>
     </td>
     <td>
@@ -284,6 +286,8 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
             <li>V<sub>out</sub> = 5V</li>
             <li>I<sub>max</sub> = 150mA</li>
             <li>Operating Temperatuur = -40~85</li>
+			<li><i>Eenheidsprijs vanaf 10 stuks: €3,89</i></li>
+			<li><i>Lead time: 39 weken</i></li>
         </ul>
     </td>
     <td>
@@ -304,6 +308,8 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
             <li>V<sub>out</sub> = 3.3V</li>
             <li>I<sub>max</sub> = 300mA</li>
             <li>Operating Temperatuur = -40~85</li>
+			<li><i>Eenheidsprijs vanaf 10 stuks: €0,332</i></li>
+			<li><i>Lead time: 68 weken</i></li>
         </ul>
     </td>
     <td>

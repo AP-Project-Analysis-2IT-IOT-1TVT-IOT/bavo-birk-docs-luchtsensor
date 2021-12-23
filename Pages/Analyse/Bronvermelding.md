@@ -1,1 +1,1 @@
-## Bronvermelding<div style="page-break-after: always"></div>
+## Bronvermelding<div style="page-break-after: always"></div>https://github.com/sivaelid/Heltec_AB02S_Modshttps://github.com/sharpsensoruser/sharp-sensor-demos/blob/master/docs/Sharp%20Dust%20Sensor%20Connectors.mdhttps://componentsearchengine.com/Datasheetshttps://opensource.com/article/20/7/docsify-github-pageshttps://www.portofantwerp.com/nl/duurzaamheid-2https://www.antwerpenmorgen.be/nl/projecten/luchtkwaliteitskaarten/over
