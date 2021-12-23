@@ -296,13 +296,13 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
 	</td>
 </tr>
 <tr>
-    <td>RP100N331D-TR-FE</td>
+    <td>AP7343D-33W5-7</td>
     <td>
         <ul>
             <li><b>3.3V Voltage Regulator</b></li>
             <li>V<sub>in</sub> = 1.7V~5.25V</li>
             <li>V<sub>out</sub> = 3.3V</li>
-            <li>I<sub>max</sub> = 200mA</li>
+            <li>I<sub>max</sub> = 300mA</li>
             <li>Operating Temperatuur = -40~85</li>
         </ul>
     </td>
