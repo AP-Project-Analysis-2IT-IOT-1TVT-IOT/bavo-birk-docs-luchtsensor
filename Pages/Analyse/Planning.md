@@ -159,6 +159,8 @@ PCB levertermijnen variëren van 5 tot 20 werkdagen.
 
 <img src="./Pictures/Planning/Planning_GanttChart.JPG" width="100%">
 
+<i>Gemaakt met <a href="https://www.wrike.com/">wrike</a></i>
+
 <!-- https://www.wrike.com/workspace.htm?acc=5250985#path=folder&id=817193039&c=timeline3&vid=62103984&p=817191900&a=5250985&so=10&bso=10&sd=0&st=space-817191900 -->
 
 <div style="page-break-after: always"></div>
