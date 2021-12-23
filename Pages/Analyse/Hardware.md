@@ -261,6 +261,7 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
             <li><b>Batterij</b></li>
             <li>V<sub>out</sub> = 3.7V</li>
             <li>I<sub>max</sub> = 2A</li>
+	    <li>I<sub>h</sub>   = 3700mAh</li>
             <li>Operating Temperatuur = -20~60</li>
         </ul>
     </td>
