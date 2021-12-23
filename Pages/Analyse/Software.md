@@ -201,7 +201,9 @@ De backend is het gedeelte dat achter de schermen gebeurt vanaf ontvangst van de
 
 ### Backend Flowcharts
 
-<img src="./Pictures/Diagrams/Flowchart_01.png"><br>
+<img src="./Pictures/Diagrams/Backend_FlowChart-01_Standby.png"><br>
+<img src="./Pictures/Diagrams/Backend_FlowChart-02_ProcessData.png"><br>
+<img src="./Pictures/Diagrams/Backend_FlowChart-03_SaveData.png"><br>
 
 ---
 
@@ -241,7 +243,10 @@ Andere functionaliteiten van de digital twin komen niet aan bod.
 
 ### GUI Flowcharts
 
-<img src="./Pictures/Diagrams/Flowchart_01.png"><br>
+<img src="./Pictures/Diagrams/GUI_FlowChart-01_Login.png"><br>
+<img src="./Pictures/Diagrams/GUI_FlowChart-02_Authorisation.png"><br>
+<img src="./Pictures/Diagrams/GUI_FlowChart-03_GetData.png"><br>
+<img src="./Pictures/Diagrams/GUI_FlowChart-04_ViewDigitalTwin.png"><br>
 
 ---
 
