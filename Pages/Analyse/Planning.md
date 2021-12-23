@@ -52,7 +52,7 @@ We werken wel Agile dus zullen gaande weg aanpassingen maken doorheen de analyse
 #
 
 ### User stories
-[- Als [PERSOON] wil ik [...], zodat ik [...].]
+<!-- - Als [PERSOON] wil ik [...], zodat ik [...]. -->
 
 ##### 1. Probleemstelling + planning:
 > - Als GELDSCHIETER wil ik weten wie de opdrachtgever is en wat de opdracht in het kort is, zodat ik een snel idee kan krijgen van het project.
@@ -117,29 +117,30 @@ We werken wel Agile dus zullen gaande weg aanpassingen maken doorheen de analyse
 > De sensordata weergeven in de GUI.
 
 ### User stories
-[ - Wanneer [situatie], wil ik [motivatie, waarom], zodat ik [verwachte uitkomst].]
+<!-- - Wanneer [situatie], wil ik [motivatie, waarom], zodat ik [verwachte uitkomst].]
 [Deze stories helpen ons om een bepaalde situatie vast te leggen, welke handeling hierop moet
-gebeuren en wat de verwachte uitkomst is van deze handeling.]
+gebeuren en wat de verwachte uitkomst is van deze handeling. -->
 
 ##### 1. Metingen uitvoeren:
+> - Als ONTWIKKELAAR wil ik alle COMPONENTEN BESTELLEN, zodat ik alles heb wanneer de PCB klaar is.
 > - Wanneer de SENSOR GEPLAATST wordt, wil ik dat de sensor aangezet of gereset wordt, zodat de sensor zijn GPS LOCATIE kan bepalen en starten met metingen uit te voeren.
-> - Wanneer er een TEMPERATUUR EN LUCHTVOCHTIGHEID METING moet worden uitgevoerd, 
-> - Wanneer er een FIJNSTOF METING moet worden uitgevoerd, 
-> - Wanneer er een STIKSTOFOXIDEN METING moet worden uitgevoerd,
+> - Wanneer er een TEMPERATUUR EN LUCHTVOCHTIGHEID METING moet worden uitgevoerd, wil ik dat de metingen worden uitgevoerd, zodat ze kunnen worden verzonden.
+> - Wanneer er een FIJNSTOF METING moet worden uitgevoerd, wil ik dat de metingen worden uitgevoerd, zodat ze kunnen worden verzonden. 
+> - Wanneer er een STIKSTOFOXIDEN METING moet worden uitgevoerd, wil ik dat de metingen worden uitgevoerd, zodat ze kunnen worden verzonden.
 > - Wanneer alle SENSOR DATA OUTPUTS in de MCU zijn binnengekomen, wil ik dat deze worden GEFORMATTEERD IN EEN BESTAND (JSON), zodat alles bij elkaar staat.
 	
 ##### 2. Sensordata verzenden:
-> - Wanneer de SENSORDATA moet worden VERZONDEN, wil ik dat de data wordt GEËNCRYPTEERD en GEFORMATTEERD IN BYTES, zodat deze draadloos kan worden verzonden.
+> - Wanneer de SENSORDATA moet worden VERZONDEN, wil ik dat de data wordt GEFORMATTEERD IN BYTES, zodat deze draadloos kan worden verzonden.
+> - Wanneer de SENSORDATA moet worden VERZONDEN, wil ik dat er VERBINDING WORDT OPGEZET, zodat de sensordata kan worden verzonden.
 > - Wanneer de SENSORDATA wordt ONTVANGEN, wil ik dat de data wordt GEHERFORMATTEERD IN EEN BESTAND, zodat deze kan worden gevalideerd en klaar is om opgeslagen te worden.
 
 ##### 3. Sensordata beheer:
 > - Wanneer de SENSORDATA klaar staat om te worden OPGESLAGEN, wil ik dat deze in de DATABASE komt, zodat het kan worden opgevraagd.
-> - Wanneer de SENSORDATA wordt OPGEVRAAGD, wil ik dat deze wordt GEDECRYPTEERD, zodat de data leesbaar is.
 > - Als ONTWIKKELAAR wil ik de RUWE SENSORDATA BEKIJKEN, om deze te kunnen valideren.
 > - Als ONTWIKKELAAR wil ik dat de SENSORDATA BESCHIKBAAR is in een API, zodat ik deze kan opvragen vanuit de digital twin.
 	
 ##### 4. Weergave op kaart:
-> - Als GEBRUIKER wil ik de SENSORDATE IN KAARTVORM BEKIJKEN, zodat ik een overzicht heb van de metingen.
+> - Als GEBRUIKER wil ik de SENSORDATA IN KAARTVORM BEKIJKEN, zodat ik een overzicht heb van de metingen.
 > - Als GEBRUIKER wil ik de SENSORDATA PER SENSOR IN DETAIL BEKIJKEN, zodat ik de exacte metingen kan raadplegen van een bepaalde locatie en tijd.
 > - Als GEBRUIKER wil ik de SENSORDATA BESCHIKBAAR hebben in de DIGITAL TWIN van de Port of Antwerp, zodat deze daar beschikbaar is en automatisch geanalyseerd kan worden door <a href="https://www.portofantwerp.com/en/smart-port">APICA</a>.
 
@@ -155,5 +156,9 @@ PCB levertermijnen variëren van 5 tot 20 werkdagen.
 #
 	
 ### Gantt chart
+
+<img src="./Pictures/Planning/Planning_GanttChart.JPG" width="100%">
+
+<!-- https://www.wrike.com/workspace.htm?acc=5250985#path=folder&id=817193039&c=timeline3&vid=62103984&p=817191900&a=5250985&so=10&bso=10&sd=0&st=space-817191900 -->
 
 <div style="page-break-after: always"></div>
