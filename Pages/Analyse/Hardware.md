@@ -310,9 +310,9 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
 		Deze regulator werkt goed samen met de batterij die wij gekozen hebben. Het is ook een SMD component dat op een groot bereik aan temperatuur kan werken.
 	</td>
     <td>
-		<a href="./Pages/Apendix/Datasheets/RP100N331D.pdf">Datasheet</a><br>
+		<a href="./Pages/Apendix/Datasheets/AP7343D.pdf">Datasheet</a><br>
 		<a href="">Documentatie fabrikant</a><br>
-		<a href="https://eu.mouser.com/ProductDetail/Ricoh-Electronic-Devices-Company/RP100N331D-TR-FE?qs=ilL34mSzaLidaNrLOeMfjw%3D%3D">Winkel</a><br>
+		<a href="https://eu.mouser.com/ProductDetail/Diodes-Incorporated/AP7343D-33W5-7?qs=EDJ299gKAZQ2xV9YzJ9Zog%3D%3D">Winkel</a><br>
 	</td>
 </tr>
 <tr>
