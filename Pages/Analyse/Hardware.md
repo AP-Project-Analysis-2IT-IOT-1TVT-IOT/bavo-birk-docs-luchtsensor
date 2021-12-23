@@ -258,7 +258,7 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
 		Deze batterij is makkelijk verkrijgbaar en is relatief goedkoop. Deze batterij heeft een hoog aantal mAh tegenover de prijs.
 	</td>
     <td>
-		<a href="./Pages/Apendix/Datasheets/BatterijDatasheet.pdf">Datasheet</a><br>
+		<a href="./Pages/Apendix/Datasheets/EEMB_LP103395.pdf">Datasheet</a><br>
 		<a href="">Documentatie fabrikant</a><br>
 		<a href="https://www.amazon.com/EEMB-3700mAh-Rechargeable-Connector-Certified/dp/B08215B4KK">Winkel</a><br>
 	</td>
@@ -278,7 +278,7 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
 		Deze voltage regulator is een SMD component dat op een groot bereik aan temperatuur kan werken. Daarbovenop valt Vin mooi samen met Vout van de batterij
 	</td>
     <td>
-		<a href="./Pages/Apendix/Datasheets/5VRegulator.pdf">Datasheet</a><br>
+		<a href="./Pages/Apendix/Datasheets/LTC3200.pdf">Datasheet</a><br>
 		<a href="">Documentatie fabrikant</a><br>
 		<a href="https://eu.mouser.com/ProductDetail/Analog-Devices/LTC3200ES6-5TRPBF?qs=hVkxg5c3xu8FsASPkjrjjA%3D%3D">Winkel</a><br>
 	</td>
@@ -298,7 +298,7 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
 		Overgenomen van de As-is. Deze regulator werkt ook perfect voor onze doeleinden.
 	</td>
     <td>
-		<a href="./Pages/Apendix/Datasheets/33VRegulator.pdf">Datasheet</a><br>
+		<a href="./Pages/Apendix/Datasheets/LD1117.pdf">Datasheet</a><br>
 		<a href="">Documentatie fabrikant</a><br>
 		<a href="https://be.farnell.com/stmicroelectronics/ld1117s33tr/v-reg-ldo-3-3v-smd-1117-sot-223/dp/1202826">Winkel</a><br>
 	</td>
