@@ -4,8 +4,8 @@
 
 ## Analyse
 
-We gebruiken Agile en Kanban om flexibel te werken en zo snel mogelijk vooruit te gaan.
-Elke week tijdens het labo krijgen we feedback van onze begeleider meneer Van Houtven. Waarna we verbeteringen kunnen uitvoeren en de planning bijsturen.
+Er wordt Agile en Kanban gebruikt om flexibel te werken en zo snel mogelijk vooruit te gaan.
+Elke week tijdens het labo wordt feedback ontvangen van de begeleider meneer Van Houtven. Waarna verbeteringen kunnen uitgevoerd worden en de planning bijgestuurd worden.
 Ten opzichte van de opdrachtgever is het analyse proces wel eerder Waterfall. Er is enkel een ineterview geweest aan de start van de analyse.
 Om de planning op te volgen werken we met een Kanban bord op GitHub Projects.
 
@@ -19,8 +19,8 @@ Om de planning op te volgen werken we met een Kanban bord op GitHub Projects.
 
 ### Toelichting fases
 Dit is de ruwe volgorde waarin de analyse wordt uitgevoerd door de opvolgbaarheid van de onderdelen.
-We kunnen bijvoorbeeld geen software analyse doen zonder de hardware outputs te kennen.
-We werken wel Agile dus zullen gaande weg aanpassingen maken doorheen de analyse.
+Er kan geen software analyse gedaan worden zonder kennis van de hardware outputs.
+Er wordt Agile gewerkt, dus zal er gaande weg aanpassingen gemaakt worden doorheen de analyse.
 
 ##### 1. Probleemstelling + planning
 > - Omschrijving van de opdrachtgever, korte samenvatting, de situatie as-is, en de situatie to-be met een projectdefinitie (doelstelling, blokschema's, scope, niet in scope).
@@ -28,7 +28,7 @@ We werken wel Agile dus zullen gaande weg aanpassingen maken doorheen de analyse
 > - Omschrijven van het functioneel design, en in het algemeen het technisch design.
 
 ##### 2. Design + hardware analyse
-> Vooraleer je de software kan analyseren moet je weten waarop de software gaat draaien. Vandaar dat we de hardware als eerste analyseren.
+> Vooraleer je de software kan analyseren moet je weten waarop de software gaat draaien. Vandaar dat de hardware als eerste wordt geanalyseerd.
 
 ##### 3. Hardware schema + I/O software
 > Eens je weet welke componenten je hebt en hoe ze tussen mekaar verbonden zijn in het hardware schema kan je de inputs en outputs oplijsten. Dit is handig voor de diagrammen later.
@@ -43,9 +43,9 @@ We werken wel Agile dus zullen gaande weg aanpassingen maken doorheen de analyse
 > - Omschrijven welke documentatie zal worden voorzien en hoe dit zal gebeuren.
 
 ##### 5. Release Plan + samenvatting + afwerking
-> - We weten nu wat er gemaakt moet worden dus kunnen we het Release Plan, met Gantt Chart methodologie, uitwerken.
-> - We kunnen nu een samenvatting schrijven van het gehele project.
-> - Als laatste zorgen we nog dat er een terminologie tabel is, en dat de versiecontrole en bronvermelding volledig is.
+> - Er wordt een Gantt planning opgesteld.
+> - Er wordt een samenvatting geschreven.
+> - Als laatste wordt ervoor gezorgd dat er een terminologie tabel is, en dat de versiecontrole en bronvermelding volledig is.
 
 <div style="page-break-after: always"></div>
 

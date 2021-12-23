@@ -217,7 +217,7 @@ Zo kan de data eenvoudig worden opgevraagd via een API en geïntegreerd worden i
 De data kan in realtime worden weergegeven, er kan genavigeerd worden door de tijd, of een exacte timestamp kan ingegeven worden.
 Dit zowel op een 2D kaart als in een 3D nabootsing van de haven.
 
-We bekijken in dit onderdeel enkel de nodige werking voor het weergeven van de sensordata.
+In dit onderdeel wordt enkel de nodige werking voor het weergeven van de sensordata bekeken.
 Andere functionaliteiten van de digital twin komen niet aan bod.
 
 ### GUI mockup

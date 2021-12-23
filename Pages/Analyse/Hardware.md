@@ -3,7 +3,7 @@
 # Hardware Analyse
 ## Smart Objects
 ### Monitoring
-> Dit is het enigste smart object dat we nodig hebben. Onze luchtsensoren moeten enkel de luchtkwaliteit monitoren. Er wordt geen controle gedaan, er wordt ook niets geoptimaliseerd en de sensor werkt al zeker niet autonoom. Iemand moet deze sensor opzetten, en iemand moet de data dat deze sensor verzamelt interpreteren.
+> Dit is het enigste smart object dat in dit project gebruikt wordt. De luchtsensoren moeten enkel de luchtkwaliteit monitoren. Er wordt geen controle gedaan, er wordt ook niets geoptimaliseerd en de sensor werkt al zeker niet autonoom. Iemand moet deze sensor opzetten, en iemand moet de data dat deze sensor verzamelt interpreteren.
 
 ### Blokdiagram
 <img src="./Pictures/Diagrams/SmartObject_Hardware.png" width="700px"><br>
@@ -188,7 +188,7 @@
         </ul>
     </td>
     <td>
-		Deze IC heeft als voordeel beide temperatuur en luchtvochtigheid te meten. Het is ook een SMD component dus eenvoudig op een PCB te krijgen. Hier moeten we wel rekening houden met de warmte ontwikkeling van andere componenten die de temperatuur metingen kunnen beïnvloeden.
+		Deze IC heeft als voordeel beide temperatuur en luchtvochtigheid te meten. Het is ook een SMD component dus eenvoudig op een PCB te krijgen. Hier moet wel rekening gehouden worden met de warmte ontwikkeling van andere componenten die de temperatuur metingen kunnen beïnvloeden.
 	</td>
     <td>
 		<a href="./Pages/Apendix/Datasheets/BoschSensortec-BME280_Datasheet.pdf">Datasheet</a><br>
@@ -228,9 +228,9 @@
 	
 ### Voeding
 
-Zoals bij de As-Is sensor hebben we onderdelen die werken op 3.3V en op 5V.<br>
-Voor 5V behouden wij er slechts één, de Sharp GP2Y1014AU0F met I<sub>max</sub> = <b>20mA</b>.<br>
-Voor de 3.3V componenten moeten we een herberekening doen:<br>
+Zoals bij de As-Is sensor gebruikt dit project ook onderdelen die werken op 3.3V en op 5V.<br>
+Voor 5V is er slechts één, de Sharp GP2Y1014AU0F met I<sub>max</sub> = <b>20mA</b>.<br>
+Voor de 3.3V componenten moet een herberekening gedaan worden:<br>
 
 > Herberekeningen voor 3.3V <br>
 I<sub>max</sub> = I<sub>ATSAMD21G18A-AUT</sub> + I<sub>BME280</sub> + I<sub>SGP41</sub> + I<sub>Grove GPS Air530</sub> + I<sub>RFM95W LoRa</sub> <br>
@@ -313,7 +313,7 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
         </ul>
     </td>
     <td>
-		Deze regulator werkt goed samen met de batterij die wij gekozen hebben. Het is ook een SMD component dat op een groot bereik aan temperatuur kan werken.
+		Deze regulator werkt goed samen met de batterij die gekozen werd. Het is ook een SMD component dat op een groot bereik aan temperatuur kan werken.
 	</td>
     <td>
 		<a href="./Pages/Apendix/Datasheets/AP7343D.pdf">Datasheet</a><br>
@@ -350,3 +350,8 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
 ---
 
 ## Elektrisch Schema
+
+<img src="./Pictures/Diagrams/Elektrisch_schema.png" width="700px"><br>
+<a href="./Pictures/Diagrams/Elektrisch_schema.sch">Schematic File</a><br>
+
+---
