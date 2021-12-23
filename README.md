@@ -6,7 +6,7 @@
 
 <br>
 
-<img src="./Pictures/PortOfAntwerp_logo.png" width="300px"><br>
+<img src="./Pictures/Graphics/PortOfAntwerp_logo.png" width="300px"><br>
 
 <br>
 <br>
@@ -33,7 +33,7 @@ Academiejaar 2021-2022
 
 <br>
 
-<img src="./Pictures/AP_logo_basis_rgb.png" width="300px"><br>
+<img src="./Pictures/Graphics/AP_logo_basis_rgb.png" width="300px"><br>
 
 <a href="https://ap-project-analysis-2it-iot-1tvt-iot.github.io/bavo-birk-docs-luchtsensor/#/">GitHub Pages</a><br>
 

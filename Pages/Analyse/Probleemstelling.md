@@ -13,6 +13,10 @@ Het doel van dit project is een IoT oplossing ontwikkelen om de luchtkwaliteit v
 Om dit doel te bereiken wordt er verder gebouwd op het huidige IoT Air Quiality Sensor project binnen AP Hogeschool. Deze vormt de basis waaruit we vertrekken, maar er gebeuren heel wat aanpassingen aan de sensor zelf. De focus ligt op het draadloos zijn en heel laag energieverbruik voor lange batterijduur. Hiervoor worden de meeste componenten vervangen door energiezuinigere varianten. Er wordt ook gebruik gemaakt van de innovatie in de haven. Het verzenden en ontvangen van de sensordata gebeurt met LoRaWAN. Het ontvangen in de backend, wat achter de schermen gebeurd, wordt dus ook aangepast. Het opslaan in de database kunnen we hergebruiken.
 Als laatste is er de weergave van de sensordata. Hiervoor zal de digital twin gebruikt worden. De data zal zo weergegeven worden op een virtuele interactieve driedimensionale kaart van de haven en automatisch gemonitord worden door de digitale assistente APICA.
 
+<div style="page-break-after: always"></div>
+
+#
+
 Raadpleeg onderstaand schema voor een visueel overzicht.
 
 <img src="./Pictures/Diagrams/Summary_BlockDiagram.png" width="100%">
@@ -24,11 +28,8 @@ Raadpleeg onderstaand schema voor een visueel overzicht.
 ## Opdracht
 
 ### Korte beschrijving opdracht
-De Port of Antwerp is zeer geïnteresseerd in de luchtkwaliteit in de haven. Om dit in kaart te brengen zal dit projectteam een sensor ontwikkelen die de verschillende karakteristieken van luchtkwaliteit kan meten. Deze karakteristieken zijn, maar niet gelimiteerd tot:
-- Temperatuur
-- Vochtigheid
-- Fijnstof
-- NO<sub>X</sub>
+De Port of Antwerp is zeer geïnteresseerd in de luchtkwaliteit in de haven. Om dit in kaart te brengen zal dit projectteam een sensor ontwikkelen die de verschillende karakteristieken van luchtkwaliteit kan meten. 
+Deze karakteristieken zijn, maar niet gelimiteerd tot: temperatuur, vochtigheid, fijnstof en NO<sub>X</sub>.
 
 Op zich geen complexe materie om te meten. De moeilijkheid ligt echter in het in kaart brengen van de volledige haven. Om dit te kunnen realiseren moet de te ontwikkelen sensor volledig draadloos zijn. Er zal draadloze technologie nodig zijn en één of andere vorm van batterij als stroomvoorziening. De Port of Antwerp heeft onlangs in de haven een LoRaWAN netwerk uitgerold. Deze Low Power Wide Area Netwerk technologie is uiterst geschikt voor de te ontwikkelen sensor. De integratie van LoRaWAN in de sensor is dus ook een vereiste.
 Op AP en daarbuiten is er al wat geëxperimenteerd met de sensors rond de luchtkwaliteit. Het innovatieve gedeelte ligt vooral rond het volledig draadloze aspect. Voordat gestart wordt met de analyse is het aangeraden om hierover opzoekingswerk te verrichten.
