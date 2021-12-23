@@ -1,8 +1,18 @@
 #
 
 # Hardware Analyse
+## Smart Objects
+### Monitoring
+> Dit is het enigste smart object dat we nodig hebben. Onze luchtsensoren moeten enkel de luchtkwaliteit monitoren. Er wordt geen controle gedaan, er wordt ook niets geoptimaliseerd en de sensor werkt al zeker niet autonoom. Iemand moet deze sensor opzetten, en iemand moet de data dat deze sensor verzamelt interpreteren.
 
-## Microcontroller
+### Blokdiagram
+<img src="/Pictures/Diagrams/SmartObject_Hardware.png" width="700px"><br>
+<a href="/Pictures/Diagrams/SmartObject_Hardware.png">Full size</a><br>
+
+---
+## Specificaties
+
+### Microcontroller
 
 <table style="width: 100%">
 <colgroup>
@@ -46,7 +56,7 @@
 
 ---
 
-## Modules
+### Modules
 
 <table style="width: 100%">
 <colgroup>
@@ -119,7 +129,7 @@
 
 ---
 
-## Sensoren
+### Sensoren
 
 <table style="width: 100%">
 <colgroup>
@@ -215,7 +225,7 @@
 
 ---
 	
-## Voeding
+### Voeding
 
 Zoals bij de As-Is sensor hebben we onderdelen die werken op 3.3V en op 5V.<br>
 Voor 5V behouden wij er slechts één, de Sharp GP2Y1014AU0F met I<sub>max</sub> = <b>20mA</b>.<br>
@@ -331,7 +341,7 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
 
 ---
 
-## Alternatieven
+### Alternatieven
 
 <table style="width: 100%">
 <colgroup>
@@ -366,3 +376,7 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
 </table>
 
 <div style="page-break-after: always"></div>
+
+---
+
+## Elektrisch Schema
