@@ -13,8 +13,6 @@
 
 > Componentsearchengine.com. 2021. [online] Available at: <https://componentsearchengine.com/> [Accessed 23 December 2021].
 
-Datasheets
-
 > Son, B., 2021. How to create a documentation site with Docsify and GitHub Pages.
  [online] Opensource.com. Available at: 
 <https://opensource.com/article/20/7/docsify-github-pages> 
@@ -26,6 +24,8 @@ Datasheets
 > 2021. Luchtkwaliteit in kaart. [online] Available at: 
 > <https://www.antwerpenmorgen.be/nl/projecten/luchtkwaliteitskaarten/over>
 >  [Accessed 23 December 2021].
+
+---
 
 > Bosch. (2021, October). BME280 Combined humidity
 > and pressure sensor. Bosch Sensortec GmbH.
