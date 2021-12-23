@@ -6,10 +6,11 @@
 > Dit is het enigste smart object dat we nodig hebben. Onze luchtsensoren moeten enkel de luchtkwaliteit monitoren. Er wordt geen controle gedaan, er wordt ook niets geoptimaliseerd en de sensor werkt al zeker niet autonoom. Iemand moet deze sensor opzetten, en iemand moet de data dat deze sensor verzamelt interpreteren.
 
 ### Blokdiagram
-<img src="/Pictures/Diagrams/SmartObject_Hardware.png" width="700px"><br>
-<a href="/Pictures/Diagrams/SmartObject_Hardware.png">Full size</a><br>
+<img src="./Pictures/Diagrams/SmartObject_Hardware.png" width="700px"><br>
+<a href="./Pictures/Diagrams/SmartObject_Hardware.png">Full size</a><br>
 
 ---
+
 ## Specificaties
 
 ### Microcontroller
@@ -47,7 +48,7 @@
 		Uit het interview met de opdrachtgever gaf hij aan dat we deze MCU moeten gebruiken. Deze is low-power en dus zeer geschikt voor de applicatie.
 	</td>
     <td>
-		<a href="../Apendix/Datasheets/ATSAMD21G18A-AUT_SAM-D21-DA1-Family_Datasheet.pdf">Datasheet</a><br>
+		<a href="./Pages/Apendix/Datasheets/ATSAMD21G18A-AUT_SAM-D21-DA1-Family_Datasheet.pdf">Datasheet</a><br>
 		<a href="https://www.microchip.com/en-us/product/ATsamd21g18#document-table style="width: 100%"">Documentatie fabrikant</a><br>
 		<a href="https://www.mouser.be/ProductDetail/Microchip-Technology-Atmel/ATSAMD21G18A-AUT?qs=KLFHFgXTQiBkLYobE%2Fq9Qw%3D%3D">Winkel</a><br>
 	</td>
@@ -93,11 +94,11 @@
 		Deze GPS module is zeer energie zuinig met verschillende low-power modi. Ze is ook relatief goedkoop en werkt op 3.3V.
 	</td>
     <td>
-		<a href="../Apendix/Datasheets/Air530-GPS_Manual_Text_English.pdf">Handleiding</a><br>
+		<a href="./Pages/Apendix/Datasheets/Air530-GPS_Manual_Text_English.pdf">Handleiding</a><br>
 		<a href="https://wiki.seeedstudio.com/Grove-GPS-Air530/">Documentatie fabrikant</a><br>
 		<a href="https://www.seeedstudio.com/Grove-GPS-Air530-p-4584.html">Winkel (fabrikant)</a><br>
 		<a href="https://www.mouser.be/new/seeed-studio/seeedstudio-grove-gps-air530-module/">Winkel</a><br>
-		<a href="../Apendix/Datasheets/Air530_GPS_User_Booklet.V1.7(Chinese).pdf">Booklet (Chinese)</a><br>
+		<a href="./Pages/Apendix/Datasheets/Air530_GPS_User_Booklet.V1.7(Chinese).pdf">Booklet (Chinese)</a><br>
 	</td>
 </tr>
 <tr>
@@ -120,7 +121,7 @@
 		Een veel gebruikte module waardoor er veel documentatie over te vinden is. Ook relatief klein.
 	</td>
     <td>
-		<a href="../Apendix/Datasheets/HopeRF_RFM95W-V2.0_Datasheet.pdf">Datasheet</a><br>
+		<a href="./Pages/Apendix/Datasheets/HopeRF_RFM95W-V2.0_Datasheet.pdf">Datasheet</a><br>
 		<a href="https://www.hoperf.com/modules/lora/RFM95.html">Documentatie fabrikant</a><br>
 		<a href="https://www.mouser.be/ProductDetail/RF-Solutions/RFM95W-868S2?qs=sGAEpiMZZMu3sxpa5v1qriuzrjO9DfPi5Wv3OoHC154%3D">Winkel</a><br>
 	</td>
@@ -163,9 +164,9 @@
 		De Sharp GP2Y1010AU0F komt uit test op vlak van accuraatheid even goed uit als de SDS011, maar heeft het voordeel van geen FAN te hebben, kleiner te zijn, energiezuiniger en goedkoper.
 	</td>
     <td>
-		<a href="../Apendix/Datasheets/Sharp-GP2Y1014AU0F_nieuwere-versie-itteratie-GP2Y1010AU0F.pdf">Datasheet GP2Y1014AU0F</a><br>
-		<a href="../Apendix/Datasheets/Sharp-GP2Y1010AU0F.pdf">Datasheet voorganger GP2Y1010AU0F</a><br>
-		<a href="../Apendix/Datasheets/Sharp-GP2Y1010AU0F_Application-notes.pdf">Application notes GP2Y1010AU0F</a><br>
+		<a href="./Pages/Apendix/Datasheets/Sharp-GP2Y1014AU0F_nieuwere-versie-itteratie-GP2Y1010AU0F.pdf">Datasheet GP2Y1014AU0F</a><br>
+		<a href="./Pages/Apendix/Datasheets/Sharp-GP2Y1010AU0F.pdf">Datasheet voorganger GP2Y1010AU0F</a><br>
+		<a href="./Pages/Apendix/Datasheets/Sharp-GP2Y1010AU0F_Application-notes.pdf">Application notes GP2Y1010AU0F</a><br>
 		<a href="http://global.sharp/products/device/lineup/selection/opto/dust/index.html">Documentatie fabrikant</a><br>
 		<a href="https://www.mouser.be/ProductDetail/Sharp-Microelectronics/GP2Y1014AU0F?qs=rrS6PyfT74eynj5J61tvwA%3D%3D">Winkel</a><br>
 	</td>
@@ -190,7 +191,7 @@
 		Deze IC heeft als voordeel beide temperatuur en luchtvochtigheid te meten. Het is ook een SMD component dus eenvoudig op een PCB te krijgen. Hier moeten we wel rekening houden met de warmte ontwikkeling van andere componenten die de temperatuur metingen kunnen beïnvloeden.
 	</td>
     <td>
-		<a href="../Apendix/Datasheets/BoschSensortec-BME280_Datasheet.pdf">Datasheet</a><br>
+		<a href="./Pages/Apendix/Datasheets/BoschSensortec-BME280_Datasheet.pdf">Datasheet</a><br>
 		<a href="https://www.bosch-sensortec.com/products/environmental-sensors/humidity-sensors-bme280/">Documentatie fabrikant</a><br>
 		<a href="https://www.mouser.be/ProductDetail/Bosch-Sensortec/BME280?qs=2OnyuXx6vpj2fK9HX7qb3g%3D%3D">Winkel</a><br>
 	</td>
@@ -216,7 +217,7 @@
 		Klein low-power SMD component Ideaal voor deze toepassing
 	</td>
     <td>
-		<a href="../Apendix/Datasheets/Sensirion-SGP41-D-R4_Datasheet.pdf">Datasheet</a><br>
+		<a href="./Pages/Apendix/Datasheets/Sensirion-SGP41-D-R4_Datasheet.pdf">Datasheet</a><br>
 		<a href="https://www.sensirion.com/en/environmental-sensors/gas-sensors/sgp40/">Documentatie fabrikant</a><br>
 		<a href="https://www.mouser.be/ProductDetail/Sensirion/SGP41-D-R4?qs=A6eO%252BMLsxmRqwfOE5NYPVA%3D%3D">Winkel</a><br>
 	</td>
@@ -269,7 +270,7 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
 		Deze batterij is makkelijk verkrijgbaar en is relatief goedkoop. Deze batterij heeft een hoog aantal mAh tegenover de prijs.
 	</td>
     <td>
-		<a href="../Apendix/Datasheets/EEMB_LP103395.pdf">Datasheet</a><br>
+		<a href="./Pages/Apendix/Datasheets/EEMB_LP103395.pdf">Datasheet</a><br>
 		<a href="">Documentatie fabrikant</a><br>
 		<a href="https://www.amazon.com/EEMB-3700mAh-Rechargeable-Connector-Certified/dp/B08215B4KK">Winkel</a><br>
 	</td>
@@ -289,7 +290,7 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
 		Deze voltage regulator is een SMD component dat op een groot bereik aan temperatuur kan werken. Daarbovenop valt Vin mooi samen met Vout van de batterij
 	</td>
     <td>
-		<a href="../Apendix/Datasheets/LTC3200.pdf">Datasheet</a><br>
+		<a href="./Pages/Apendix/Datasheets/LTC3200.pdf">Datasheet</a><br>
 		<a href="">Documentatie fabrikant</a><br>
 		<a href="https://eu.mouser.com/ProductDetail/Analog-Devices/LTC3200ES6-5TRPBF?qs=hVkxg5c3xu8FsASPkjrjjA%3D%3D">Winkel</a><br>
 	</td>
@@ -309,7 +310,7 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
 		Overgenomen van de As-is. Deze regulator werkt ook perfect voor onze doeleinden.
 	</td>
     <td>
-		<a href="../Apendix/Datasheets/LD1117.pdf">Datasheet</a><br>
+		<a href="./Pages/Apendix/Datasheets/LD1117.pdf">Datasheet</a><br>
 		<a href="">Documentatie fabrikant</a><br>
 		<a href="https://be.farnell.com/stmicroelectronics/ld1117s33tr/v-reg-ldo-3-3v-smd-1117-sot-223/dp/1202826">Winkel</a><br>
 	</td>
@@ -331,7 +332,7 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
 		De 2N7002K-7 zal gebruikt worden om de modules en sensoren, zonder sleep mode, uit te zetten tijdens de intervallen. (Overgenomen van As-Is)
 	</td>
     <td>
-		<a href="../Apendix/Datasheets/MOSFET-2N7002K-7_Datasheet.pdf">Datasheet</a><br>
+		<a href="./Pages/Apendix/Datasheets/MOSFET-2N7002K-7_Datasheet.pdf">Datasheet</a><br>
 		<a href="https://www.diodes.com/part/view/2N7002K">Documentatie fabrikant</a><br>
 		<a href="https://www.mouser.be/ProductDetail/Diodes-Incorporated/2N7002K-7?qs=rGAXPo9uwV0%2Fp9r5KJ7huA%3D%3D">Winkel</a><br>
 	</td>
@@ -369,7 +370,7 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
 	</td>
     <td>[# Hardware Analyse.md](https://github.com/AP-Project-Analysis-2IT-IOT-1TVT-IOT/bavo-birk-docs-luchtsensor/files/7766202/Hardware.Analyse.md)
 
-		<a href="../Apendix/Datasheets/.pdf">Datasheet</a><br>
+		<a href="./Pages/Apendix/Datasheets/.pdf">Datasheet</a><br>
 		<a href="">Documentatie fabrikant</a><br>
 		<a href="">Winkel</a><br>
 	</td>
