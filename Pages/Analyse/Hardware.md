@@ -350,3 +350,8 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
 ---
 
 ## Elektrisch Schema
+
+<img src="./Pictures/Diagrams/Elektrisch_schema.png" width="700px"><br>
+<a href="./Pictures.Diagrams/Elektrisch_schema.sch">Schematic File</a><br>
+
+---
