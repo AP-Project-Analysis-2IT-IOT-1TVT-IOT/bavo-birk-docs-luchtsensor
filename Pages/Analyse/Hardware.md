@@ -245,87 +245,23 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
     <th>Data</th>
 </tr>
 <tr>
-    <td>Naam</td>
+    <td>EEMB LP103395</td>
     <td>
         <ul>
             <li><b>Batterij</b></li>
-            <li>V<sub>out</sub> = V</li>
-            <li>I<sub>max</sub> = mA</li>
-            <li>Operating Temperatuur = </li>
-			<li>SOT-..</li>
+            <li>V<sub>out</sub> = 3.7V</li>
+            <li>I<sub>max</sub> = 2A</li>
+            <li>Operating Temperatuur = -20~60</li>
+
         </ul>
     </td>
     <td>
-		Argumentatie
+		Deze batterij is makkelijk verkrijgbaar en is relatief goedkoop. Deze batterij heeft een hoog aantal mAh tegenover de prijs.
 	</td>
     <td>
-		<a href="./Pages/Apendix/Datasheets/.pdf">Datasheet</a><br>
+		<a href="./Pages/Apendix/Datasheets/BatterijDatasheet.pdf">Datasheet</a><br>
 		<a href="">Documentatie fabrikant</a><br>
-		<a href="">Winkel</a><br>
-	</td>
-</tr>
-<tr>
-    <td>Naam</td>
-    <td>
-        <ul>
-            <li><b>5V Voltage Regulator</b></li>
-            <li>V<sub>in</sub> = V</li>
-            <li>V<sub>out</sub> = 5V</li>
-            <li>I<sub>max</sub> = mA</li>
-            <li>Operating Temperatuur = </li>
-			<li>SOT-..</li>
-        </ul>
-    </td>
-    <td>
-		Argumentatie
-	</td>
-    <td>
-		<a href="./Pages/Apendix/Datasheets/.pdf">Datasheet</a><br>
-		<a href="">Documentatie fabrikant</a><br>
-		<a href="">Winkel</a><br>
-	</td>
-</tr>
-<tr>
-    <td>Naam</td>
-    <td>
-        <ul>
-            <li><b>3.3V Voltage Regulator</b></li>
-            <li>V<sub>in</sub> = V</li>
-            <li>V<sub>out</sub> = 5V</li>
-            <li>I<sub>max</sub> = mA</li>
-            <li>Operating Temperatuur = </li>
-			<li>SOT-..</li>
-        </ul>
-    </td>
-    <td>
-		Argumentatie
-	</td>
-    <td>
-		<a href="./Pages/Apendix/Datasheets/.pdf">Datasheet</a><br>
-		<a href="">Documentatie fabrikant</a><br>
-		<a href="">Winkel</a><br>
-	</td>
-</tr>
-<tr>
-    <td>2N7002K-7</td>
-    <td>
-        <ul>
-            <li><b>MOSFET</b></li>
-            <li>V<sub>GS(th)</sub> = 1 - 2.5V</li>
-            <li>V<sub>DDS(max)</sub> = 60V</li>
-            <li>I<sub>max</sub> = 380mA</li>
-			<li>SOT-23</li>
-			<li><i>Eenheidsprijs vanaf 10 stuks: €0,169</i></li>
-			<li><i>Lead time: 89 weken</i></li>
-        </ul>
-    </td>
-    <td>
-		De 2N7002K-7 zal gebruikt worden om de modules en sensoren, zonder sleep mode, uit te zetten tijdens de intervallen. (Overgenomen van As-Is)
-	</td>
-    <td>
-		<a href="./Pages/Apendix/Datasheets/MOSFET-2N7002K-7_Datasheet.pdf">Datasheet</a><br>
-		<a href="https://www.diodes.com/part/view/2N7002K">Documentatie fabrikant</a><br>
-		<a href="https://www.mouser.be/ProductDetail/Diodes-Incorporated/2N7002K-7?qs=rGAXPo9uwV0%2Fp9r5KJ7huA%3D%3D">Winkel</a><br>
+		<a href="https://www.amazon.com/EEMB-3700mAh-Rechargeable-Connector-Certified/dp/B08215B4KK">Winkel</a><br>
 	</td>
 </tr>
 </table>
