@@ -252,7 +252,6 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
             <li>V<sub>out</sub> = 3.7V</li>
             <li>I<sub>max</sub> = 2A</li>
             <li>Operating Temperatuur = -20~60</li>
-
         </ul>
     </td>
     <td>
@@ -262,6 +261,68 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
 		<a href="./Pages/Apendix/Datasheets/BatterijDatasheet.pdf">Datasheet</a><br>
 		<a href="">Documentatie fabrikant</a><br>
 		<a href="https://www.amazon.com/EEMB-3700mAh-Rechargeable-Connector-Certified/dp/B08215B4KK">Winkel</a><br>
+	</td>
+</tr>
+<tr>
+    <td>LTC3200ES6</td>
+    <td>
+        <ul>
+            <li><b>5V Voltage Regulator</b></li>
+            <li>V<sub>in</sub> = 2.7V~4.5V</li>
+            <li>V<sub>out</sub> = 5V</li>
+            <li>I<sub>max</sub> = 150mA</li>
+            <li>Operating Temperatuur = -40~85</li>
+        </ul>
+    </td>
+    <td>
+		Deze voltage regulator is een SMD component dat op een groot bereik aan temperatuur kan werken. Daarbovenop valt Vin mooi samen met Vout van de batterij
+	</td>
+    <td>
+		<a href="./Pages/Apendix/Datasheets/5VRegulator.pdf">Datasheet</a><br>
+		<a href="">Documentatie fabrikant</a><br>
+		<a href="https://eu.mouser.com/ProductDetail/Analog-Devices/LTC3200ES6-5TRPBF?qs=hVkxg5c3xu8FsASPkjrjjA%3D%3D">Winkel</a><br>
+	</td>
+</tr>
+<tr>
+    <td>LD1117</td>
+    <td>
+        <ul>
+            <li><b>3.3V Voltage Regulator</b></li>
+            <li>V<sub>in</sub> = 4.75V~15V</li>
+            <li>V<sub>out</sub> = 3.3V</li>
+            <li>I<sub>max</sub> = 950mA</li>
+            <li>Operating Temperatuur = 0~125</li>
+        </ul>
+    </td>
+    <td>
+		Overgenomen van de As-is. Deze regulator werkt ook perfect voor onze doeleinden.
+	</td>
+    <td>
+		<a href="./Pages/Apendix/Datasheets/33VRegulator.pdf">Datasheet</a><br>
+		<a href="">Documentatie fabrikant</a><br>
+		<a href="https://be.farnell.com/stmicroelectronics/ld1117s33tr/v-reg-ldo-3-3v-smd-1117-sot-223/dp/1202826">Winkel</a><br>
+	</td>
+</tr>
+<tr>
+    <td>2N7002K-7</td>
+    <td>
+        <ul>
+            <li><b>MOSFET</b></li>
+            <li>V<sub>GS(th)</sub> = 1 - 2.5V</li>
+            <li>V<sub>DDS(max)</sub> = 60V</li>
+            <li>I<sub>max</sub> = 380mA</li>
+			<li>SOT-23</li>
+			<li><i>Eenheidsprijs vanaf 10 stuks: €0,169</i></li>
+			<li><i>Lead time: 89 weken</i></li>
+        </ul>
+    </td>
+    <td>
+		De 2N7002K-7 zal gebruikt worden om de modules en sensoren, zonder sleep mode, uit te zetten tijdens de intervallen. (Overgenomen van As-Is)
+	</td>
+    <td>
+		<a href="./Pages/Apendix/Datasheets/MOSFET-2N7002K-7_Datasheet.pdf">Datasheet</a><br>
+		<a href="https://www.diodes.com/part/view/2N7002K">Documentatie fabrikant</a><br>
+		<a href="https://www.mouser.be/ProductDetail/Diodes-Incorporated/2N7002K-7?qs=rGAXPo9uwV0%2Fp9r5KJ7huA%3D%3D">Winkel</a><br>
 	</td>
 </tr>
 </table>
