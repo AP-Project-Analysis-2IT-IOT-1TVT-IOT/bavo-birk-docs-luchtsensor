@@ -296,21 +296,21 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
 	</td>
 </tr>
 <tr>
-    <td>LD1117</td>
+    <td>RP100N331D-TR-FE</td>
     <td>
         <ul>
             <li><b>3.3V Voltage Regulator</b></li>
-            <li>V<sub>in</sub> = 4.75V~15V</li>
+            <li>V<sub>in</sub> = 1.7V~5.25V</li>
             <li>V<sub>out</sub> = 3.3V</li>
-            <li>I<sub>max</sub> = 950mA</li>
-            <li>Operating Temperatuur = 0~125</li>
+            <li>I<sub>max</sub> = 200mA</li>
+            <li>Operating Temperatuur = -40~85</li>
         </ul>
     </td>
     <td>
-		Overgenomen van de As-is. Deze regulator werkt ook perfect voor onze doeleinden.
+		Deze regulator werkt goed samen met de batterij die wij gekozen hebben. Het is ook een SMD component dat op een groot bereik aan temperatuur kan werken.
 	</td>
     <td>
-		<a href="./Pages/Apendix/Datasheets/LD1117.pdf">Datasheet</a><br>
+		<a href="./Pages/Apendix/Datasheets/RP100N331D.pdf">Datasheet</a><br>
 		<a href="">Documentatie fabrikant</a><br>
 		<a href="https://be.farnell.com/stmicroelectronics/ld1117s33tr/v-reg-ldo-3-3v-smd-1117-sot-223/dp/1202826">Winkel</a><br>
 	</td>
