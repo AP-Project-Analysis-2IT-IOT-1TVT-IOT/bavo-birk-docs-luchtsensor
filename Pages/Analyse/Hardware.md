@@ -359,7 +359,8 @@ Voor 3.3V <b>123.4mA</b> To-Be tegenover <b>822.6mA</b> As-Is.
     <td>
 		Argumentatie
 	</td>
-    <td>
+    <td>[# Hardware Analyse.md](https://github.com/AP-Project-Analysis-2IT-IOT-1TVT-IOT/bavo-birk-docs-luchtsensor/files/7766202/Hardware.Analyse.md)
+
 		<a href="./Pages/Apendix/Datasheets/.pdf">Datasheet</a><br>
 		<a href="">Documentatie fabrikant</a><br>
 		<a href="">Winkel</a><br>
