@@ -14,13 +14,6 @@
 | 0.2.2 | 2021-12-16 | <b>Bavo Debraekeleer</b>, Tamm Birk | Aanvulling | Aanvulling scope + datamigratie, infrastructuur, security secties toegevoegd | 
 | 0.3.0 | 2021-12-18 | <b>Bavo Debraekeleer</b>, Tamm Birk, Patrick Van Houtven | Derde draft | Verdere verbeteringen adhv feedback + aanvulling scope en hardware + opmaak en readme | 
 | 0.3.1 | 2021-12-18 | <b>Bavo Debraekeleer</b>, Tamm Birk | Aanvulling | Foto's toegevoegd As-Is prototype v1.0 + user stories planning aangevuld + opmaak, structuur en readme aangepast + versiebeheer adhv GitHub commits | 
-
-<div style="page-break-after: always"></div>
-
-#
-
-| Nr | Datum | Verspreiding | Status | Wijziging |
-| ---- | ------------ | ------------------------------ | ------------ | ----------------------------------------- |
 | 0.3.2 | 2021-12-19 | <b>Bavo Debraekeleer</b>, Tamm Birk | Aanvulling | GUI mockup | 
 | 0.3.3 | 2021-12-19 | <b>Bavo Debraekeleer</b>, Tamm Birk | Verbetering en aanvulling | Verbeteringen Hardware, Blokschema's en GUI + Software Data I/0 | 
 | 0.3.4 | 2021-12-20 | <b>Bavo Debraekeleer</b>, Tamm Birk | Verbetering en aanvulling | Verbeteringen feedback + aanvulling Security, Probleemstelling, Software | 
